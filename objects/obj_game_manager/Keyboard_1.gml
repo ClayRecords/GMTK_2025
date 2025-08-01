@@ -20,9 +20,3 @@ if (keyboard_check(ord("3"))) {
 if (keyboard_check(ord("4"))) {
     room_goto(3);
 }
-
-if (keyboard_check_pressed(ord("M"))) {
-	var shop_layer_name = "ShopUI"; 
-	var current_state = layer_get_visible(shop_layer_name);
-    layer_set_visible(shop_layer_name, !current_state);
-}
