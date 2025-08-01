@@ -19,11 +19,16 @@ if (leader != noone) {
 
 function add_weapon(weapon_obj) {
 	// Add turret ontop of the the sprite of the train_car
-	var weapon = instance_create_layer(x,y,"Turret_Layer",weapon_obj);
+	try {
+		var weapon = instance_create_layer(x,y,"Turret_Layer",weapon_obj);
 	
-	self.weapon = weapon;
+		self.weapon = weapon;
 	
-	if (variable_instance_exists(weapon,"parent_car")) {
-		weapon.parent_car = id;
+		if (variable_instance_exists(weapon,"parent_car")) {
+			weapon.parent_car = id;
+		}
+	} catch(_exception)  {
+		print(_exception);
 	}
+
 }
