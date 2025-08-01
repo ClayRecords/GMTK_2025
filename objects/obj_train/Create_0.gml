@@ -16,6 +16,10 @@ starting_y = y;
 prev_x = x;
 prev_y = y;
 
+car_spacing = 0.02;
+car_count = 0;
+max_number_of_cars = 10;
+
 train_speed = 5;
 min_train_speed = 0;
 max_train_speed = 10;
@@ -52,6 +56,7 @@ for (var i = num_of_segments; i >= 0; i--) {
     var current_y = center_y + circle_radius * sin(degtorad(angle));
     path_add_point(train_path, current_x, current_y, 50);
 }
+path_add_point(train_path,starting_x,starting_y, 50);
 
 // Start the pat using path_action_restart
 path_start(train_path, train_speed, path_action_restart, true);
