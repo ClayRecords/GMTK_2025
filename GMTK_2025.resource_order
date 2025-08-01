@@ -12,6 +12,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_camera","order":8,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_choo_choo","order":7,"path":"objects/obj_choo_choo/obj_choo_choo.yy",},
+    {"name":"obj_chuga_chuga","order":11,"path":"objects/obj_chuga_chuga/obj_chuga_chuga.yy",},
     {"name":"obj_game_manager","order":1,"path":"objects/obj_game_manager/obj_game_manager.yy",},
     {"name":"obj_kneeling_soldier","order":10,"path":"objects/obj_kneeling_soldier/obj_kneeling_soldier.yy",},
     {"name":"obj_toy_box","order":2,"path":"objects/obj_toy_box/obj_toy_box.yy",},
