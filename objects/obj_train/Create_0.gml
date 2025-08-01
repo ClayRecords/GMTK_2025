@@ -68,3 +68,33 @@ function add_car(){
 	var car = instance_create_layer(x, y, "Instances", obj_train_car);
 	array_push(train_cars,car);
 }
+
+
+// Draw the track sprites
+var distance_step = 16; // how close together the tracks are
+var track_scale = 0.3 // How big the track image appears
+var total_length = path_get_length(train_path);
+
+
+for (var d = 0; d <= total_length; d += distance_step) {
+	var x_pos = path_get_x(train_path, d / total_length);
+	var y_pos = path_get_y(train_path, d / total_length);
+
+	// Get angle to rotate sprite in path direction
+	var next_x = path_get_x(train_path, (d + 1) / total_length);
+	var next_y = path_get_y(train_path, (d + 1) / total_length);
+	var angle = point_direction(x_pos, y_pos, next_x, next_y);
+
+	try {
+		// Place the tile
+		var inst = instance_create_layer(x_pos, y_pos, "Tracks", obj_track_straight);
+		inst.image_angle = angle; // Rotate the object to face the path
+		
+		// Re-scale the image
+		inst.image_xscale = inst.image_xscale * track_scale
+		inst.image_yscale = inst.image_yscale * track_scale
+	} catch (_exception) {
+		print(_exception)
+	}
+	
+}
