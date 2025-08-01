@@ -17,6 +17,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"buildings","folderPath":"folders/Objects/buildings.yy","name":"buildings","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"enemies","folderPath":"folders/Objects/enemies.yy","name":"enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"traps","folderPath":"folders/Objects/traps.yy","name":"traps","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menus","folderPath":"folders/Objects/menus.yy","name":"menus","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"pause_menu","folderPath":"folders/Objects/menus/pause_menu.yy","name":"pause_menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"turrets","folderPath":"folders/Objects/turrets.yy","name":"turrets","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -43,6 +44,7 @@
   "name":"GMTK_2025",
   "resources":[
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
+    {"id":{"name":"Block","path":"objects/Block/Block.yy",},},
     {"id":{"name":"obj_building_menu_close","path":"objects/obj_building_menu_close/obj_building_menu_close.yy",},},
     {"id":{"name":"obj_building","path":"objects/obj_building/obj_building.yy",},},
     {"id":{"name":"obj_buildings_controller","path":"objects/obj_buildings_controller/obj_buildings_controller.yy",},},
