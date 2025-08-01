@@ -22,8 +22,8 @@ max_number_of_cars = 20;
 
 train_power_level = 1;
 train_speed = 5;
-min_train_speed = 0;
-max_train_speed = 10;
+min_train_speed = 8;
+max_train_speed = 12;
 duration_between_speed_change = 30;
 
 circle_radius = 150;
