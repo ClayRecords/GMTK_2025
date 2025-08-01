@@ -1,4 +1,5 @@
 just_entered = false
+building_layer_name = noone
 
 function enter_building() {
 	// Open Menu
@@ -6,16 +7,22 @@ function enter_building() {
 	if (not just_entered) {
 		print("Entered building");
 		obj_train.train_speed = 0;
-		obj_buildings_controller.current_building = self
+		obj_building_manager.current_building = self;
+		prepare_building();
 		toggle_interact_menu(); // Generic building interaction function to be defined in child class
 		just_entered = true
 	}
 
-};
+}
+function prepare_building() {
+	return
+}
 
 function toggle_interact_menu() {
-	var current_state = layer_get_visible(building_layer_name);
-    layer_set_visible(building_layer_name, !current_state);
+    if (is_string(building_layer_name)) {
+        var current_state = layer_get_visible(building_layer_name);
+        layer_set_visible(building_layer_name, !current_state);
+    }
 }
 
 function leave_building() {
