@@ -1,0 +1,57 @@
+/// @description Insert description here
+// On creation the train should initialize it's path. 
+// In theory this can be drawn by a user
+// on top of the background if they want. 
+// For now I am just making the path a circle
+
+train_path = path_add();
+
+starting_x = obj_train.x;
+starting_y = obj_train.y;
+
+circle_radius = 100;
+num_of_segments = 36; //higher number, smoother the path
+length_of_straightaway = 200;
+
+// First straightaway
+path_add_point(train_path,starting_x,starting_y, 50);
+path_add_point(train_path, starting_x-(length_of_straightaway/2), starting_y, 50);
+
+
+// First curve of the track
+center_x = starting_x - (length_of_straightaway/2);
+center_y = starting_y + (length_of_straightaway / 2);
+var end_y = 0;
+for (var i = num_of_segments; i >= 0; i--) {
+    var angle = 90 + (i * (180 / num_of_segments)); // 90 → 270, counterclockwise
+    var this_x = center_x + circle_radius * cos(degtorad(angle));
+    var this_y = center_y + circle_radius * sin(degtorad(angle));
+	end_y = this_y
+    path_add_point(train_path, this_x, this_y, 50);
+}
+
+// Second straightaway
+path_add_point(train_path, starting_x - (length_of_straightaway/2), end_y, 50);
+
+// Second curve of the track
+center_x = starting_x + (length_of_straightaway / 2);
+center_y = starting_y + (length_of_straightaway / 2);
+
+for (var i = 0; i <= num_of_segments; i++) {
+    var angle = 270 + (i * (180 / num_of_segments)); // 90 to 270 (counterclockwise)
+    var this_x = center_x + circle_radius * cos(degtorad(angle));
+    var this_y = center_y + circle_radius * sin(degtorad(angle));
+    path_add_point(train_path, this_x, this_y, 50);
+}
+
+
+// half of first straightaway
+path_add_point(train_path, starting_x+(length_of_straightaway/2), starting_y, 50);
+
+path_start(train_path,5, path_action_restart, true);
+
+
+
+
+
+
