@@ -1,4 +1,10 @@
+
  if (keyboard_check(ord("1"))) {
+
+/// @description Change room by key press
+
+if (keyboard_check(ord("1"))) {
+
     room_goto(0);
 }
 
@@ -13,5 +19,3 @@ if (keyboard_check(ord("3"))) {
 if (keyboard_check(ord("4"))) {
     room_goto(3);
 }
-
-
