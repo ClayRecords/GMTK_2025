@@ -1,3 +1,3 @@
 debug = false;
+global.one_second = game_get_speed(gamespeed_fps);
 gold = 0;
-// This is gross, but needed

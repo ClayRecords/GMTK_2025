@@ -7,7 +7,7 @@ all_wave_enemies = [
 
 wave_number = 0;
 active_wave_enemies = all_wave_enemies[wave_number];
-spawn_rate = game_get_speed(gamespeed_fps);
+spawn_rate = global.one_second;
 wave_is_active = false;
 
 function start_next_wave() {
