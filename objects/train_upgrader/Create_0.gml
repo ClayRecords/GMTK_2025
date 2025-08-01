@@ -11,5 +11,4 @@ function do_option2() {
 }
 function do_option3() {
 	obj_train.add_car();
-	obj_train.max_number_of_cars();
 }
