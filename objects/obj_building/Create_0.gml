@@ -16,9 +16,6 @@ function enter_building() {
 	}
 
 }
-function prepare_building() {
-	return
-}
 
 function toggle_interact_menu() {
     if (is_string(building_layer_name)) {
