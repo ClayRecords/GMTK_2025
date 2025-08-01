@@ -1,3 +1,5 @@
 /// @description Start sub wave
 
-start_next_sub_wave();
+if (self.wave_is_spawning) {
+	start_next_sub_wave();
+}

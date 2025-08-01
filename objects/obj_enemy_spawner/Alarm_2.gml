@@ -1,3 +1,5 @@
 /// @description Spawn
 
-spawn_next_enemy();
+if (self.sub_wave_is_spawning) {
+	spawn_next_enemy();
+}
