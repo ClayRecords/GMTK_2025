@@ -70,3 +70,15 @@ function add_car(){
 	var car = instance_create_layer(x, y, "Instances", obj_train_car);
 	array_push(train_cars,car);
 }
+
+function add_weapon_to_next_car(weapon) {
+	var len = array_length(train_cars);
+	
+    for (var i = 0; i < len; i++) {
+        var car = train_cars[i];
+        if (instance_exists(car) && car.weapon == noone) {
+            car.add_weapon(weapon); // calls function inside the train car
+            break; // only add to one car per keypress
+        }
+    }
+}

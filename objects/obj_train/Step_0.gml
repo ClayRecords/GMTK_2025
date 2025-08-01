@@ -7,8 +7,6 @@ if(global.pause or should_move == false) {
 	path_speed = train_speed;
 }
 
-
-
 var delta_x = x - prev_x;
 var delta_y = y - prev_y;
 
