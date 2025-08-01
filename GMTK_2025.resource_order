@@ -1,9 +1,26 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"enemies","order":16,"path":"folders/Sprites/enemies.yy",},
+    {"name":"turrets","order":14,"path":"folders/Sprites/turrets.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"obj_building_menu_close","order":3,"path":"objects/obj_building_menu_close/obj_building_menu_close.yy",},
     {"name":"obj_buildings_controller","order":2,"path":"objects/obj_buildings_controller/obj_buildings_controller.yy",},
     {"name":"obj_option_button","order":1,"path":"objects/obj_option_button/obj_option_button.yy",},
+    {"name":"obj_robot","order":1,"path":"objects/obj_robot/obj_robot.yy",},
     {"name":"get_lead_direction","order":1,"path":"scripts/get_lead_direction/get_lead_direction.yy",},
+    {"name":"spr_building","order":2,"path":"sprites/spr_building/spr_building.yy",},
+    {"name":"spr_gold_mine","order":4,"path":"sprites/spr_gold_mine/spr_gold_mine.yy",},
+    {"name":"spr_main_menu_button","order":11,"path":"sprites/spr_main_menu_button/spr_main_menu_button.yy",},
+    {"name":"spr_pause_menu","order":13,"path":"sprites/spr_pause_menu/spr_pause_menu.yy",},
+    {"name":"spr_robot","order":1,"path":"sprites/spr_robot/spr_robot.yy",},
+    {"name":"spr_toy_box","order":1,"path":"sprites/spr_toy_box/spr_toy_box.yy",},
+    {"name":"spr_train","order":5,"path":"sprites/spr_train/spr_train.yy",},
+    {"name":"spr_ui_back","order":8,"path":"sprites/spr_ui_back/spr_ui_back.yy",},
+    {"name":"spr_ui_box","order":7,"path":"sprites/spr_ui_box/spr_ui_box.yy",},
+    {"name":"spr_ui_check","order":12,"path":"sprites/spr_ui_check/spr_ui_check.yy",},
+    {"name":"spr_ui_icon1","order":10,"path":"sprites/spr_ui_icon1/spr_ui_icon1.yy",},
+    {"name":"spr_ui_icon2","order":3,"path":"sprites/spr_ui_icon2/spr_ui_icon2.yy",},
+    {"name":"spr_ui_icon3","order":6,"path":"sprites/spr_ui_icon3/spr_ui_icon3.yy",},
   ],
 }
