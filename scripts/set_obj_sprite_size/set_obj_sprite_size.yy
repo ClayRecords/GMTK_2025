@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"set_obj_sprite_size",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"set_obj_sprite_size",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
