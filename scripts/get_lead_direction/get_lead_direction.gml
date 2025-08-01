@@ -1,13 +1,4 @@
-/// @description 
-
-event_inherited();
-
-gun_sprite = spr_basic_turret_gun;
-fire_rate = global.one_second * 1.5;
-fire_cooldown = fire_rate;
-bullet_speed = 8;
-bullet_damage = 5;
-
+/// @description Get a direction to go to find the intersection point of two moving items
 
 function get_lead_direction(
     source_x, source_y,
@@ -19,7 +10,7 @@ function get_lead_direction(
     var dx = target_x - source_x;
     var dy = target_y - source_y;
 
-    var a = target_vx * target_vx + target_vy * target_vy - bullet_speed * bullet_speed;
+    var a = target_vx * target_vx + target_vy * target_vy - source_speed * source_speed;
     var b = 2 * (target_vx * dx + target_vy * dy);
     var c = dx * dx + dy * dy;
 
@@ -40,6 +31,5 @@ function get_lead_direction(
 
     var intercept_x = target_x + target_vx * t;
     var intercept_y = target_y + target_vy * t;
-
     return point_direction(source_x, source_y, intercept_x, intercept_y);
 }

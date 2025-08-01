@@ -4,6 +4,6 @@ if (distance_to_train < 30){
     enter_building();
 }
 
-else if (distance_to_train > 30) {
-	leave_building();
+else if (distance_to_train > 30 && just_entered == true) {
+	just_entered = false;
 }

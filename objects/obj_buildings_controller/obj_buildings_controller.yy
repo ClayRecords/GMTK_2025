@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pause_controller",
+  "%Name":"obj_buildings_controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pause_controller",
+  "name":"obj_buildings_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"pause_menu",
-    "path":"folders/Objects/menus/pause_menu.yy",
+    "name":"menus",
+    "path":"folders/Objects/menus.yy",
   },
   "parentObjectId":null,
   "persistent":false,
