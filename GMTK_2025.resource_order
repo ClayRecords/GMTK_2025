@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"get_lead_direction","order":1,"path":"scripts/get_lead_direction/get_lead_direction.yy",},
+  ],
 }
