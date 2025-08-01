@@ -1,17 +1,23 @@
-enter_building = function() {
+just_entered = false
+
+function enter_building() {
 	// Stop train
 	// Open Menu
-	do_building_interaction() // Generic building interaction function to be defined in child class
+	print("Tried to enter building");
+	if (not just_entered) {
+		print("Entered building");
+		do_building_interaction(); // Generic building interaction function to be defined in child class
+	}
+	just_entered = true
 };
 
-leave_building = function() {
+function leave_building() {
+	just_entered = false
 	// DO NOT OVERRIDE
 	// Close menu
 	// Resume train canMove
 }
 
-if (keyboard_check_pressed(ord("E"))) {
-    enter_building();
-}
+
 
 // Add do_building_interaction function
