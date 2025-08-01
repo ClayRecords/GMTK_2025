@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gold_mine",
+  "%Name":"obj_bank",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gold_mine",
+  "name":"obj_bank",
   "overriddenProperties":[],
   "parent":{
     "name":"buildings",

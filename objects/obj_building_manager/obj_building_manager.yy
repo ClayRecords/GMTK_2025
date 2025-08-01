@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_buildings_controller",
+  "%Name":"obj_building_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_buildings_controller",
+  "name":"obj_building_manager",
   "overriddenProperties":[],
   "parent":{
     "name":"menus",

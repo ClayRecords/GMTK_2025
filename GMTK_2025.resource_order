@@ -3,8 +3,8 @@
     {"name":"menus","order":1,"path":"folders/Sprites/menus.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_building_manager","order":2,"path":"objects/obj_building_manager/obj_building_manager.yy",},
     {"name":"obj_building_menu_close","order":3,"path":"objects/obj_building_menu_close/obj_building_menu_close.yy",},
-    {"name":"obj_buildings_controller","order":2,"path":"objects/obj_buildings_controller/obj_buildings_controller.yy",},
     {"name":"obj_option_button","order":1,"path":"objects/obj_option_button/obj_option_button.yy",},
     {"name":"obj_pause_controller","order":2,"path":"objects/obj_pause_controller/obj_pause_controller.yy",},
     {"name":"obj_resume_button","order":1,"path":"objects/obj_resume_button/obj_resume_button.yy",},
