@@ -2,6 +2,22 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
+    {"$GMRUILayer":"v1","%Name":"PauseUI","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"PausePanel","alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"QuitButton","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[
+                    {"$GMRTextItem":"v2","%Name":"text_212F1713","alignment":1,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"frameH":88.0,"frameW":64.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_212F1713","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"Quit\r\n","wrap":false,"x":-417.5,"xorigin":0.0,"y":129.0,"yorigin":0.0,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":44.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4287187186,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":198.0,},},
+                {"$GMRFlexPanel":"","%Name":"FlexPanel_1","alignItems":2,"children":[
+                    {"$GMRInstance":"v2","%Name":"inst_6023174","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6023174","objectId":{"name":"quit_button","path":"objects/quit_button/quit_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.8958333,"scaleY":1.2916666,"x":-418.0,"y":36.0,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":48.0,},"justifyContent":1,"name":"FlexPanel_1","nodeColour":4294068422,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":48.0,},},
+              ],"flexDirection":0,"height":{"unit":3,"value":48.0,},"justifyContent":1,"name":"QuitButton","nodeColour":4282970712,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":48.0,},},
+            {"$GMRFlexPanel":"","%Name":"Title","alignItems":2,"children":[
+                {"$GMRTextItem":"v2","%Name":"text_E238FC9","alignment":1,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_E238FC9","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"Pause!","wrap":false,"x":-418.0,"xorigin":0.0,"y":-137.0,"yorigin":0.0,},
+              ],"flexDirection":0,"height":{"unit":3,"value":44.0,},"justifyContent":1,"name":"Title","nodeColour":4294068330,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":198.0,},},
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_394B265C","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_394B265C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":3.6770833,"scaleY":3.6041663,"spriteId":{"name":"spr_ui_box","path":"sprites/spr_ui_box/spr_ui_box.yy",},"x":-525.0,"y":-67.0,},
+          ],"flexDirection":0,"height":{"unit":3,"value":96.0,},"justifyContent":1,"name":"PausePanel","nodeColour":4293216498,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":96.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PauseUI","nodeColour":4282970803,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"ShopUI","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"ShopPanel","alignItems":4,"children":[
             {"$GMRFlexPanel":"","%Name":"Button","alignItems":2,"children":[
