@@ -1,11 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(global.pause) {
+if(global.pause or should_move == false) {
 	path_speed = 0;	
 } else {
 	path_speed = train_speed;
 }
+
+
 
 var delta_x = x - prev_x;
 var delta_y = y - prev_y;

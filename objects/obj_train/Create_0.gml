@@ -16,7 +16,7 @@ starting_y = y;
 prev_x = x;
 prev_y = y;
 
-car_spacing = 0.02;
+car_spacing = 0.0225;
 train_cars = [];
 max_number_of_cars = 20;
 
@@ -29,6 +29,8 @@ duration_between_speed_change = 30;
 circle_radius = 150;
 num_of_segments = 36; //higher number, smoother the path
 length_of_straightaway = 400;
+
+should_move = true;
 
 // First straightaway
 path_add_point(train_path,starting_x,starting_y, 50);
