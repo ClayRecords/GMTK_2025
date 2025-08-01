@@ -22,7 +22,7 @@ if (keyboard_check(ord("4"))) {
 }
 
 if (keyboard_check(ord("6"))) {
-    room_goto(5);
+    room_goto(4);
 }
 
 if (keyboard_check_pressed(ord("M"))) {

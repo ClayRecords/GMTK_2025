@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_train_car",
-    "path":"sprites/spr_train_car/spr_train_car.yy",
+    "name":"spr_train_car_sliced",
+    "path":"sprites/spr_train_car_sliced/spr_train_car_sliced.yy",
   },
   "spriteMaskId":null,
   "visible":true,
