@@ -74,7 +74,7 @@ function add_car(){
 
 // Draw the track sprites
 var distance_step = 16; // how close together the tracks are
-var track_scale = 0.3 // How big the track image appears
+var track_scale = 0.7 // How big the track image appears
 var total_length = path_get_length(train_path);
 
 
