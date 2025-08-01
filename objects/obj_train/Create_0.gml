@@ -19,6 +19,7 @@ prev_y = y;
 train_speed = 5;
 min_train_speed = 0;
 max_train_speed = 10;
+duration_between_speed_change = 30;
 
 circle_radius = 150;
 num_of_segments = 36; //higher number, smoother the path
