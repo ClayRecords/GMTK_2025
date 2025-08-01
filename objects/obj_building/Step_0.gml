@@ -6,4 +6,5 @@ if (distance_to_train < 140){
 
 else if (distance_to_train > 140 && just_entered == true) {
 	just_entered = false;
+	obj_building_manager.current_building = noone;
 }
