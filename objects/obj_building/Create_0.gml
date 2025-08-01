@@ -1,6 +1,8 @@
 just_entered = false
 building_layer_name = noone
 
+option_descriptions = [noone, noone, noone];
+
 function enter_building() {
 	// Open Menu
 	print("Tried to enter building");
@@ -14,9 +16,6 @@ function enter_building() {
 	}
 
 }
-function prepare_building() {
-	return
-}
 
 function toggle_interact_menu() {
     if (is_string(building_layer_name)) {
@@ -28,9 +27,6 @@ function toggle_interact_menu() {
 function leave_building() {
 	toggle_interact_menu();
 	obj_train.train_speed = 5;
-	// DO NOT OVERRIDE
-	// Close menu
-	// Resume train canMove
 }
 
 
