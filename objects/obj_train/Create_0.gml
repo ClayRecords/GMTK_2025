@@ -17,7 +17,7 @@ prev_x = x;
 prev_y = y;
 
 car_spacing = 0.02;
-car_count = 0;
+train_cars = [];
 max_number_of_cars = 10;
 
 train_power_level = 1;

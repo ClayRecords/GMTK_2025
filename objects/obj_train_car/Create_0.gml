@@ -10,9 +10,9 @@ prev_y = y;
 
 if (leader != noone) {
     train_path = leader.train_path;
-    car_offset = -(++leader.car_count * leader.car_spacing);
+    car_offset = -((array_length(leader.train_cars)+1) * leader.car_spacing);
 	
-	// Optional: Match leader’s sprite scale/direction
+	
     image_xscale = leader.image_xscale;
     image_yscale = leader.image_yscale;
 }
