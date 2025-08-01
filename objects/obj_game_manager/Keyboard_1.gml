@@ -20,3 +20,7 @@ if (keyboard_check(ord("3"))) {
 if (keyboard_check(ord("4"))) {
     room_goto(3);
 }
+
+if (keyboard_check(ord("5"))) {
+    room_goto(4);
+}
