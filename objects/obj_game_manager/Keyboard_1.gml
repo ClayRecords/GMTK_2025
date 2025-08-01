@@ -1,10 +1,6 @@
-
- if (keyboard_check(ord("1"))) {
-
 /// @description Change room by key press
 
 if (keyboard_check(ord("1"))) {
-
     room_goto(0);
 }
 
