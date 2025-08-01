@@ -1,21 +1,4 @@
 {
-  "FolderOrderSettings":[
-    {"name":"menus","order":1,"path":"folders/Sprites/menus.yy",},
-  ],
-  "ResourceOrderSettings":[
-    {"name":"obj_building_manager","order":2,"path":"objects/obj_building_manager/obj_building_manager.yy",},
-    {"name":"obj_building_menu_close","order":3,"path":"objects/obj_building_menu_close/obj_building_menu_close.yy",},
-    {"name":"obj_option_button","order":1,"path":"objects/obj_option_button/obj_option_button.yy",},
-    {"name":"obj_pause_controller","order":2,"path":"objects/obj_pause_controller/obj_pause_controller.yy",},
-    {"name":"obj_resume_button","order":1,"path":"objects/obj_resume_button/obj_resume_button.yy",},
-    {"name":"get_lead_direction","order":1,"path":"scripts/get_lead_direction/get_lead_direction.yy",},
-    {"name":"spr_ui_box","order":1,"path":"sprites/spr_ui_box/spr_ui_box.yy",},
-    {"name":"spr_ui_button","order":2,"path":"sprites/spr_ui_button/spr_ui_button.yy",},
-    {"name":"spr_ui_check","order":3,"path":"sprites/spr_ui_check/spr_ui_check.yy",},
-    {"name":"spr_ui_icon1","order":4,"path":"sprites/spr_ui_icon1/spr_ui_icon1.yy",},
-    {"name":"spr_ui_icon2","order":5,"path":"sprites/spr_ui_icon2/spr_ui_icon2.yy",},
-    {"name":"spr_ui_icon3","order":6,"path":"sprites/spr_ui_icon3/spr_ui_icon3.yy",},
-  ],
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[],
 }
