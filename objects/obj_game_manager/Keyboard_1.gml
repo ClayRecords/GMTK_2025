@@ -1,4 +1,4 @@
-if (keyboard_check(ord("1"))) {
+ if (keyboard_check(ord("1"))) {
     room_goto(0);
 }
 
