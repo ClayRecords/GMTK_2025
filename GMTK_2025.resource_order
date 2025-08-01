@@ -11,5 +11,8 @@
     {"name":"obj_train_car","order":1,"path":"objects/obj_train_car/obj_train_car.yy",},
     {"name":"get_lead_direction","order":1,"path":"scripts/get_lead_direction/get_lead_direction.yy",},
     {"name":"spr_train_car","order":1,"path":"sprites/spr_train_car/spr_train_car.yy",},
+    {"name":"train_upgrader","order":1,"path":"objects/train_upgrader/train_upgrader.yy",},
+    {"name":"get_lead_direction","order":1,"path":"scripts/get_lead_direction/get_lead_direction.yy",},
+    {"name":"spr_train_upgrader","order":1,"path":"sprites/spr_train_upgrader/spr_train_upgrader.yy",},
   ],
 }
