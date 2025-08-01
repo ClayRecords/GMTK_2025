@@ -1,2 +1,0 @@
-//draw_stacked_sprite(sprite_index, x, y, z)
-
