@@ -9,8 +9,8 @@
   "name":"obj_pause_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"menus",
-    "path":"folders/Objects/menus.yy",
+    "name":"pause_menu",
+    "path":"folders/Objects/menus/pause_menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
