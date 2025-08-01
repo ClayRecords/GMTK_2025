@@ -10,11 +10,11 @@
 
 train_path = path_add();
 
-starting_x = obj_train.x;
-starting_y = obj_train.y;
+starting_x = x;
+starting_y = y;
 
-prev_x = obj_train.x;
-prev_y = obj_train.y;
+prev_x = x;
+prev_y = y;
 
 train_speed = 5;
 min_train_speed = 0;

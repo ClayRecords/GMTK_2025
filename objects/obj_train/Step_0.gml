@@ -22,11 +22,12 @@ if (abs(delta_x) > abs(delta_y)) {
     } else {
         direction = 90; // up
     }
+if (delta_x != 0 || delta_y != 0) {
+    direction = point_direction(prev_x, prev_y, x, y);
+    image_angle = direction; // rotate sprite to match
 }
 
 // Update previous position for next frame
 prev_x = x;
 prev_y = y;
 image_angle = direction
-
-print("Direction here:",direction);
