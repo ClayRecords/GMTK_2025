@@ -1,16 +1,6 @@
 {
   "FolderOrderSettings":[
-    {"name":"traps","order":1,"path":"folders/Objects/traps.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_building_menu_close","order":3,"path":"objects/obj_building_menu_close/obj_building_menu_close.yy",},
-    {"name":"obj_buildings_controller","order":2,"path":"objects/obj_buildings_controller/obj_buildings_controller.yy",},
-    {"name":"obj_hotbar_button","order":4,"path":"objects/obj_hotbar_button/obj_hotbar_button.yy",},
-    {"name":"obj_option_button","order":1,"path":"objects/obj_option_button/obj_option_button.yy",},
-    {"name":"Room5","order":1,"path":"rooms/Room5/Room5.yy",},
-    {"name":"get_lead_direction","order":1,"path":"scripts/get_lead_direction/get_lead_direction.yy",},
-    {"name":"spr_baseball","order":1,"path":"sprites/spr_baseball/spr_baseball.yy",},
-    {"name":"spr_block","order":3,"path":"sprites/spr_block/spr_block.yy",},
-    {"name":"spr_mouse_trap","order":2,"path":"sprites/spr_mouse_trap/spr_mouse_trap.yy",},
   ],
 }

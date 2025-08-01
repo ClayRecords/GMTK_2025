@@ -1,1 +1,1 @@
-obj_buildings_controller.current_building.leave_building();
+obj_building_manager.current_building.leave_building();
