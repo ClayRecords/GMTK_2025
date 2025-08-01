@@ -15,9 +15,9 @@ starting_y = obj_train.y;
 
 train_speed = 5;
 
-circle_radius = 100;
+circle_radius = 150;
 num_of_segments = 36; //higher number, smoother the path
-length_of_straightaway = 200;
+length_of_straightaway = 400;
 
 // First straightaway
 path_add_point(train_path,starting_x,starting_y, 50);
@@ -25,7 +25,7 @@ path_add_point(train_path, starting_x-(length_of_straightaway/2), starting_y, 50
 
 
 // First curve of the track
-center_x = starting_x - circle_radius;
+center_x = starting_x -(length_of_straightaway/2) - circle_radius;
 center_y = starting_y + circle_radius;
 for (var i = num_of_segments; i >= 0; i--) {
     var angle = 90 + (i * (180 / num_of_segments)); 
@@ -38,7 +38,7 @@ for (var i = num_of_segments; i >= 0; i--) {
 path_add_point(train_path, starting_x + (length_of_straightaway/2),starting_y+(circle_radius*2), 50);
 
 // Second curve of the track
-center_x = starting_x + circle_radius;
+center_x = starting_x + (length_of_straightaway/2) + circle_radius;
 center_y = starting_y + circle_radius;
 for (var i = num_of_segments; i >= 0; i--) {
     var angle = 270 + (i * (180 / num_of_segments)); 
