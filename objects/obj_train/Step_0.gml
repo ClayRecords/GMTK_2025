@@ -10,18 +10,6 @@ if(global.pause) {
 var delta_x = x - prev_x;
 var delta_y = y - prev_y;
 
-if (abs(delta_x) > abs(delta_y)) {
-    if (delta_x > 0) {
-        direction = 0; // right
-    } else {
-        direction = 180; // left
-    }
-} else {
-    if (delta_y > 0) {
-        direction = 270; // down
-    } else {
-        direction = 90; // up
-    }
 if (delta_x != 0 || delta_y != 0) {
     direction = point_direction(prev_x, prev_y, x, y);
     image_angle = direction; // rotate sprite to match
@@ -30,4 +18,3 @@ if (delta_x != 0 || delta_y != 0) {
 // Update previous position for next frame
 prev_x = x;
 prev_y = y;
-image_angle = direction
