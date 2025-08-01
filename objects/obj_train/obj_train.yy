@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_train",
-    "path":"sprites/spr_train/spr_train.yy",
+    "name":"spr_train_sliced",
+    "path":"sprites/spr_train_sliced/spr_train_sliced.yy",
   },
   "spriteMaskId":null,
   "visible":true,
