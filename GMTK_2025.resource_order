@@ -12,7 +12,6 @@
   "ResourceOrderSettings":[
     {"name":"obj_camera","order":8,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_choo_choo","order":7,"path":"objects/obj_choo_choo/obj_choo_choo.yy",},
-    {"name":"obj_chuga_chuga","order":11,"path":"objects/obj_chuga_chuga/obj_chuga_chuga.yy",},
     {"name":"obj_game_manager","order":1,"path":"objects/obj_game_manager/obj_game_manager.yy",},
     {"name":"obj_kneeling_soldier","order":10,"path":"objects/obj_kneeling_soldier/obj_kneeling_soldier.yy",},
     {"name":"obj_toy_box","order":2,"path":"objects/obj_toy_box/obj_toy_box.yy",},
@@ -25,6 +24,7 @@
     {"name":"spr_kneeling_soldier","order":2,"path":"sprites/spr_kneeling_soldier/spr_kneeling_soldier.yy",},
     {"name":"spr_main_menu_button","order":12,"path":"sprites/spr_main_menu_button/spr_main_menu_button.yy",},
     {"name":"spr_pause_menu","order":11,"path":"sprites/spr_pause_menu/spr_pause_menu.yy",},
+    {"name":"spr_robot_sliced","order":5,"path":"sprites/spr_robot_sliced/spr_robot_sliced.yy",},
     {"name":"spr_running_soldier","order":4,"path":"sprites/spr_running_soldier/spr_running_soldier.yy",},
     {"name":"spr_standing_soldier","order":3,"path":"sprites/spr_standing_soldier/spr_standing_soldier.yy",},
     {"name":"spr_test_car","order":18,"path":"sprites/spr_test_car/spr_test_car.yy",},

@@ -7,7 +7,7 @@
 // IMPORTANT! This only works when the length_of_straightaway 
 // is double the circle_radius
 
-
+even_step = false;
 train_path = path_add();
 
 starting_x = x;
@@ -16,7 +16,7 @@ starting_y = y;
 prev_x = x;
 prev_y = y;
 
-car_spacing = 0.02;
+car_spacing = 0.04;
 train_cars = [];
 max_number_of_cars = 20;
 
@@ -66,5 +66,7 @@ path_start(train_path, train_speed, path_action_restart, true);
 function add_car(){
 	if (array_length(train_cars) >= max_number_of_cars) return
 	var car = instance_create_layer(x, y, "Instances", obj_train_car);
+	car.image_xscale = 2;
+	car.image_yscale = 2;
 	array_push(train_cars,car);
 }
