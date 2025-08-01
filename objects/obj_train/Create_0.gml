@@ -13,6 +13,9 @@ train_path = path_add();
 starting_x = obj_train.x;
 starting_y = obj_train.y;
 
+prev_x = obj_train.x;
+prev_y = obj_train.y;
+
 train_speed = 5;
 min_train_speed = 0;
 max_train_speed = 10;
