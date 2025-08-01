@@ -1,3 +1,8 @@
+if(global.pause){
+	exit;	
+}
+
+
 if (keyboard_check(ord("1"))) {
     room_goto(0);
 }
