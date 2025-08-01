@@ -8,7 +8,10 @@
   "instanceCreationOrder":[
     {"name":"inst_2B9B86E7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_55AC2767","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_74BBE33F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3733B76B","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_49DDD2EE","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_53199868","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_16698103","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
