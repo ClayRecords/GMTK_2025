@@ -1,6 +1,6 @@
 all_waves = [
-	[{"s": 1}, {"s": 1}],
-	[{"s": 2}, {"s": 2}],
+	[{"k": 2}, {"s": 1}],
+	[{"k": 2}, {"s": 2}],
 	[{"s": 2}, {"s": 6, "r": 1}, {"s": 8, "r": 2}],
 	[{"s": 15}],
 	[{"s": 20}]
@@ -59,13 +59,21 @@ function spawn_next_enemy() {
 		variable_struct_remove(active_sub_wave, enemy_key);
 	}
 	
+	x_and_y = generate_x_and_y();
+	var new_x = x_and_y[0];
+	var new_y = x_and_y[1];
+	
 	// Do the spawn
 	switch (enemy_key) {
 	    case "s":
-			instance_create_layer(0, 0, "Instances", obj_soldier);
+			instance_create_layer(new_x, new_y, "Instances", obj_soldier);
 			break;
 	    case "r":
+			instance_create_layer(new_x, new_y, "Instances", obj_robot);
 	        break;
+		case "k":
+			var soldier = instance_create_layer(new_x, new_y, "Instances", obj_kneeling_soldier);
+			break;
 	    default:
 	        break;
 	}
@@ -105,4 +113,54 @@ function get_random_sub_wave_enemy_name() {
 function struct_key_count(struct) {
 	var key_list = struct_get_names(struct);
 	return array_length(key_list);
+}
+
+function generate_x_and_y() {
+	var room_side = irandom(6);
+	
+	var left_x = 0;
+	var middle_x = room_width / 2;
+	var right_x = room_width;
+	
+	var top_y = 0;
+	var bottom_y = room_height;
+		
+	var new_x = 0;
+	var new_y = 0;
+	// Do the spawn
+	switch (room_side) {
+	    case 0:
+			// Top left section
+			new_x = random_range(left_x,middle_x);
+			new_y = top_y
+			break;
+	    case 1:
+			// Top right section
+			new_x = random_range(middle_x,right_x);
+			new_y = top_y
+			break;
+		case 2:
+			// Right side 
+			new_x = right_x
+			new_y = random_range(top_y,bottom_y);
+			break;
+		case 3:
+			// Bottom right section
+			new_x = random_range(middle_x,right_x);
+			new_y = bottom_y
+			break;
+		case 4:
+			// Bottom left section
+			new_x = random_range(left_x,middle_x);
+			new_y = bottom_y
+			break;
+		case 5:
+			// Left side
+			new_x = left_x
+			new_y = random_range(top_y,bottom_y);
+			break;
+		default:
+			break;
+	}
+	return [new_x, new_y]
 }
