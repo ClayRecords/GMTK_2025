@@ -45,7 +45,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.0.849",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"GMTK_2025",
   "resources":[
@@ -67,6 +67,7 @@
     {"id":{"name":"obj_hotbar_button","path":"objects/obj_hotbar_button/obj_hotbar_button.yy",},},
     {"id":{"name":"obj_mouse_trap","path":"objects/obj_mouse_trap/obj_mouse_trap.yy",},},
     {"id":{"name":"obj_option_button","path":"objects/obj_option_button/obj_option_button.yy",},},
+    {"id":{"name":"obj_pause_button","path":"objects/obj_pause_button/obj_pause_button.yy",},},
     {"id":{"name":"obj_pause_controller","path":"objects/obj_pause_controller/obj_pause_controller.yy",},},
     {"id":{"name":"obj_projectile_parent","path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},},
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},},
@@ -133,6 +134,7 @@
     {"id":{"name":"spr_ui_icon1","path":"sprites/spr_ui_icon1/spr_ui_icon1.yy",},},
     {"id":{"name":"spr_ui_icon2","path":"sprites/spr_ui_icon2/spr_ui_icon2.yy",},},
     {"id":{"name":"spr_ui_icon3","path":"sprites/spr_ui_icon3/spr_ui_icon3.yy",},},
+    {"id":{"name":"spr_ui_pause","path":"sprites/spr_ui_pause/spr_ui_pause.yy",},},
     {"id":{"name":"spr_ui_upgrade_button","path":"sprites/spr_ui_upgrade_button/spr_ui_upgrade_button.yy",},},
   ],
   "resourceType":"GMProject",

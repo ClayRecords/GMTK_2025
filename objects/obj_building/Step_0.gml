@@ -6,5 +6,4 @@ if (distance_to_train < distance_to_stop_at_building && !just_passed_or_entered)
 
 else if (distance_to_train > distance_to_stop_at_building && just_passed_or_entered == true) {
 	just_passed_or_entered = false;
-	obj_building_manager.current_building = noone;
 }
