@@ -73,12 +73,23 @@ function add_car(){
 
 
 // Draw the track sprites
-var distance_step = 16; // how close together the tracks are
 var track_scale = 0.7 // How big the track image appears
 var total_length = path_get_length(train_path);
 
+var track_count = 200;
+var number_of_segments = 10;
+var distance_step = total_length / track_count; // how close together the tracks are
+var tracks_per_segment = 24; 
 
+//var connector_offset = 15; // necessary to see the full connector art
+//print(segment_count)
+var i = 0;
+var connector_track = noone;
 for (var d = 0; d <= total_length; d += distance_step) {
+	connector_track = (i % tracks_per_segment = 0);
+	if connector_track {
+		d += 15; //connector_offset;
+	}
 	var x_pos = path_get_x(train_path, d / total_length);
 	var y_pos = path_get_y(train_path, d / total_length);
 
@@ -86,10 +97,15 @@ for (var d = 0; d <= total_length; d += distance_step) {
 	var next_x = path_get_x(train_path, (d + 1) / total_length);
 	var next_y = path_get_y(train_path, (d + 1) / total_length);
 	var angle = point_direction(x_pos, y_pos, next_x, next_y);
-
+	var inst = noone;
 	try {
 		// Place the tile
-		var inst = instance_create_layer(x_pos, y_pos, "Tracks", obj_track_straight);
+		if connector_track {
+			inst = instance_create_layer(x_pos, y_pos, "Tracks", obj_track_connected);
+		}
+		else {
+			inst = instance_create_layer(x_pos, y_pos, "Tracks", obj_track_straight);
+		}
 		inst.image_angle = angle; // Rotate the object to face the path
 		
 		// Re-scale the image
@@ -98,5 +114,5 @@ for (var d = 0; d <= total_length; d += distance_step) {
 	} catch (_exception) {
 		print(_exception)
 	}
-	
+	i++;
 }
