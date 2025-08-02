@@ -114,53 +114,19 @@ function struct_key_count(struct) {
 	var key_list = struct_get_names(struct);
 	return array_length(key_list);
 }
-
 function generate_x_and_y() {
-	var room_side = irandom(6);
-	
-	var left_x = 0;
-	var middle_x = room_width / 2;
-	var right_x = room_width;
-	
-	var top_y = 0;
-	var bottom_y = room_height;
-		
-	var new_x = 0;
-	var new_y = 0;
-	// Do the spawn
-	switch (room_side) {
-	    case 0:
-			// Top left section
-			new_x = random_range(left_x,middle_x);
-			new_y = top_y
-			break;
-	    case 1:
-			// Top right section
-			new_x = random_range(middle_x,right_x);
-			new_y = top_y
-			break;
-		case 2:
-			// Right side 
-			new_x = right_x
-			new_y = random_range(top_y,bottom_y);
-			break;
-		case 3:
-			// Bottom right section
-			new_x = random_range(middle_x,right_x);
-			new_y = bottom_y
-			break;
-		case 4:
-			// Bottom left section
-			new_x = random_range(left_x,middle_x);
-			new_y = bottom_y
-			break;
-		case 5:
-			// Left side
-			new_x = left_x
-			new_y = random_range(top_y,bottom_y);
-			break;
-		default:
-			break;
-	}
-	return [new_x, new_y]
+	var half_w = room_width  * 0.5;
+	var half_h = room_height * 0.5;
+
+	var spawn_patterns = [
+		function() { return [random_range(0, room_width  * 0.5), 0]; },                      // Top left
+		function() { return [random_range(room_width  * 0.5, room_width), 0]; },            // Top right
+		function() { return [room_width, random_range(0, room_height)]; },       // Right
+		function() { return [random_range(room_width  * 0.5, room_width), room_height]; },  // Bottom right
+		function() { return [random_range(0, room_width  * 0.5), room_height]; },           // Bottom left
+		function() { return [0, random_range(0, room_height)]; }                 // Left
+	];
+
+	var i = irandom(array_length(spawn_patterns) - 1);
+	return spawn_patterns[i]();
 }
