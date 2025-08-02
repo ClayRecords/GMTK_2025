@@ -1,5 +1,6 @@
+ event_inherited()
  
-if (active) {
+if (is_active) {
 	direction = point_direction(obj_toy_box.x, obj_toy_box.y, x, y);
 	speed = 5;
 	
@@ -12,14 +13,3 @@ if (active) {
 		instance_destroy(self);
 	}
 }
-else {
-	x = mouse_x;
-	y = mouse_y;
-
-	//drop on click		
-	if (mouse_check_button_pressed(mb_left)) {
-		active = true;
-	}
-}
-
-
