@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"GMTK_2025",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -45,7 +45,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.1400.0.849",
   },
   "name":"GMTK_2025",
   "resources":[
@@ -67,6 +67,7 @@
     {"id":{"name":"obj_mouse_trap","path":"objects/obj_mouse_trap/obj_mouse_trap.yy",},},
     {"id":{"name":"obj_option_button","path":"objects/obj_option_button/obj_option_button.yy",},},
     {"id":{"name":"obj_pause_controller","path":"objects/obj_pause_controller/obj_pause_controller.yy",},},
+    {"id":{"name":"obj_projectile_parent","path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},},
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},},
     {"id":{"name":"obj_resume_button","path":"objects/obj_resume_button/obj_resume_button.yy",},},
     {"id":{"name":"obj_robot_spark","path":"objects/obj_robot_spark/obj_robot_spark.yy",},},

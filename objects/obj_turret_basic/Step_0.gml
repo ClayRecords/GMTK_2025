@@ -7,9 +7,9 @@ if (target != noone) {
 	fire_cooldown--;	
 	if (fire_cooldown <= 0) {
 		instance_create_layer(x, y, "Instances", obj_bullet, {
-			speed: bullet_speed,
-			direction: fire_direction,
-			damage: bullet_damage
+			"speed": bullet_speed,
+			"_direction": fire_direction,
+			"damage": bullet_damage
 		});
 		fire_cooldown = fire_rate;
 	}
