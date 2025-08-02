@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_ui_upgrade_button",
   "bboxMode":0,
   "bbox_bottom":99,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"6396a68b-dbbd-49fd-9685-c3fa6372cb94","name":"6396a68b-dbbd-49fd-9685-c3fa6372cb94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6396a68b-dbbd-49fd-9685-c3fa6372cb94","name":"6396a68b-dbbd-49fd-9685-c3fa6372cb94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":10,
   "gridY":10,
