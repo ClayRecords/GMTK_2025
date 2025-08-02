@@ -13,3 +13,8 @@ else if (option_num == 3) {
 	print("Did option 3");
 	opened_building.do_option3();	
 }
+
+else if (option_num == 4) {
+	print("Did option 4");
+	opened_building.do_option4();
+}

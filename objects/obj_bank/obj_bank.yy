@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gold_mine",
-    "path":"sprites/spr_gold_mine/spr_gold_mine.yy",
+    "name":"spr_bank",
+    "path":"sprites/spr_bank/spr_bank.yy",
   },
   "spriteMaskId":null,
   "visible":true,

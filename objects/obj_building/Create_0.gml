@@ -1,11 +1,10 @@
-just_entered = false
-building_layer_name = noone
-
-option_descriptions = [noone, noone, noone];
+just_entered = false;
+building_layer_name = noone;
+distance_to_stop_at_building = 100;
+option_descriptions = [];
 
 function enter_building() {
 	// Open Menu
-	print("Tried to enter building");
 	if (not just_entered) {
 		print("Entered building");
 		obj_train.train_speed = 0;
@@ -25,6 +24,7 @@ function toggle_interact_menu() {
 }
 
 function leave_building() {
+	print("Left building")
 	toggle_interact_menu();
 	obj_train.train_speed = 5;
 }
