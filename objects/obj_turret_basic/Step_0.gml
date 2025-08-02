@@ -1,6 +1,7 @@
 /// @description Fire!
 
 if (target != noone) {
+	// Aim slightly ahead
 	fire_direction = get_lead_direction(x, y, bullet_speed, target.x, target.y, target.hspeed, target.vspeed);	
 	
 	fire_cooldown--;	

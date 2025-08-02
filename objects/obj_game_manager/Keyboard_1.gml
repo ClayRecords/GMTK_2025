@@ -32,3 +32,11 @@ if (keyboard_check(ord("5"))) {
 if (keyboard_check(ord("6"))) {
     room_goto(5);
 }
+
+if(keyboard_check(ord("K"))){
+var px = mouse_x;
+var py = mouse_y;
+
+var lyr = layer_get_id("Equipment");
+instance_create_layer(px, py, lyr, obj_mouse_trap);
+}
