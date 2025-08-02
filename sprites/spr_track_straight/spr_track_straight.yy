@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"tracks",
-    "path":"folders/Sprites/tracks.yy",
+    "name":"track_sprites",
+    "path":"folders/Sprites/track_sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
