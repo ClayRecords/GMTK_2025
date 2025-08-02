@@ -30,7 +30,7 @@
               ],"flexDirection":0,"height":{"unit":3,"value":48.0,},"justifyContent":1,"name":"Baseball","nodeColour":4294081608,"paddingBottom":{"unit":1,"value":10.0,},"paddingLeft":{"unit":1,"value":10.0,},"paddingRight":{"unit":1,"value":10.0,},"paddingTop":{"unit":1,"value":10.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":48.0,},},
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_16979E91","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_16979E91","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_ui_box","path":"sprites/spr_ui_box/spr_ui_box.yy",},"x":0.0,"y":0.0,},
           ],"flexDirection":2,"gapColumn":12.0,"height":{"unit":3,"value":96.0,},"justifyContent":1,"name":"Hotbar","nodeColour":4283123954,"paddingBottom":{"unit":1,"value":24.0,},"paddingLeft":{"unit":1,"value":24.0,},"paddingRight":{"unit":1,"value":24.0,},"paddingTop":{"unit":1,"value":24.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":96.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":2,"name":"HotbarUI","nodeColour":4286050888,"paddingBottom":{"unit":1,"value":4.0,},"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":2,"name":"HotbarUI","nodeColour":4286050888,"paddingBottom":{"unit":1,"value":4.0,},"resourceType":"GMRUILayer","resourceVersion":"2.0",},
     {"$GMRUILayer":"v1","%Name":"PauseUI","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"PausePanel","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"QuitButton","alignItems":2,"children":[
@@ -346,5 +346,5 @@
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",
   "viewspaceChildren":[],
-  "visible":false,
+  "visible":true,
 }

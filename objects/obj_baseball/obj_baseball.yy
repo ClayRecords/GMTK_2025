@@ -10,6 +10,7 @@
   "name":"obj_baseball",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_equipment","path":"objects/obj_equipment/obj_equipment.yy",},"propertyId":{"name":"equipment_sprite","path":"objects/obj_equipment/obj_equipment.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_baseball",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_equipment","path":"objects/obj_equipment/obj_equipment.yy",},"propertyId":{"name":"trap_name","path":"objects/obj_equipment/obj_equipment.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Baseball",},
   ],
   "parent":{
     "name":"equipment",

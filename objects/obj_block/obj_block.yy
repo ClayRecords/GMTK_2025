@@ -11,6 +11,7 @@
   "name":"obj_block",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_equipment","path":"objects/obj_equipment/obj_equipment.yy",},"propertyId":{"name":"equipment_sprite","path":"objects/obj_equipment/obj_equipment.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_block",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_equipment","path":"objects/obj_equipment/obj_equipment.yy",},"propertyId":{"name":"trap_name","path":"objects/obj_equipment/obj_equipment.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Block",},
   ],
   "parent":{
     "name":"equipment",

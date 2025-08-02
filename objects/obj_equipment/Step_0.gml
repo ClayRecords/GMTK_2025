@@ -14,11 +14,19 @@ if (!is_active) {
 			hotbar_position.left + hotbar_position.width,
 			hotbar_position.top + hotbar_position.height
 		)
+		
+		var my_trap_name = trap_name;
 
 		if (clicked_on_hotbar) {
-		} else {
+			with(obj_hotbar_button) {
+				if (trap_name == my_trap_name) {
+					quantity = quantity + 1;
+				}
+			}
 			
-		is_active = true;
+			instance_destroy(self)
+		} else {
+			is_active = true;
 		}
 	}
 }
