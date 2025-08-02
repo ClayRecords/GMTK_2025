@@ -15,3 +15,11 @@ if (target != noone) {
 } else {
 	fire_cooldown = fire_rate;
 }
+
+// For future weapons
+if (parent_car != noone) {
+	x = parent_car.x;
+	y = parent_car.y;
+	
+	image_angle = parent_car.image_angle;	
+}

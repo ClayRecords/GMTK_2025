@@ -7,7 +7,7 @@
 // IMPORTANT! This only works when the length_of_straightaway 
 // is double the circle_radius
 
-
+even_step = false;
 train_path = path_add();
 
 starting_x = x;
@@ -16,7 +16,7 @@ starting_y = y;
 prev_x = x;
 prev_y = y;
 
-car_spacing = 0.02;
+car_spacing = 0.04;
 train_cars = [];
 max_number_of_cars = 20;
 
@@ -29,6 +29,8 @@ duration_between_speed_change = 30;
 circle_radius = 150;
 num_of_segments = 36; //higher number, smoother the path
 length_of_straightaway = 400;
+
+should_move = true;
 
 // First straightaway
 path_add_point(train_path,starting_x,starting_y, 50);
@@ -66,5 +68,48 @@ path_start(train_path, train_speed, path_action_restart, true);
 function add_car(){
 	if (array_length(train_cars) >= max_number_of_cars) return
 	var car = instance_create_layer(x, y, "Instances", obj_train_car);
+	car.image_xscale = 2;
+	car.image_yscale = 2;
 	array_push(train_cars,car);
+}
+
+function add_weapon_to_next_car(weapon) {
+	var len = array_length(train_cars);
+	
+    for (var i = 0; i < len; i++) {
+        var car = train_cars[i];
+        if (instance_exists(car) && car.weapon == noone) {
+            car.add_weapon(weapon); // calls function inside the train car
+            break; // only add to one car per keypress
+        }
+    }
+}
+
+// Draw the track sprites
+var distance_step = 16; // how close together the tracks are
+var track_scale = 0.7 // How big the track image appears
+var total_length = path_get_length(train_path);
+
+
+for (var d = 0; d <= total_length; d += distance_step) {
+	var x_pos = path_get_x(train_path, d / total_length);
+	var y_pos = path_get_y(train_path, d / total_length);
+
+	// Get angle to rotate sprite in path direction
+	var next_x = path_get_x(train_path, (d + 1) / total_length);
+	var next_y = path_get_y(train_path, (d + 1) / total_length);
+	var angle = point_direction(x_pos, y_pos, next_x, next_y);
+
+	try {
+		// Place the tile
+		var inst = instance_create_layer(x_pos, y_pos, "Tracks", obj_track_straight);
+		inst.image_angle = angle; // Rotate the object to face the path
+		
+		// Re-scale the image
+		inst.image_xscale = inst.image_xscale * track_scale
+		inst.image_yscale = inst.image_yscale * track_scale
+	} catch (_exception) {
+		print(_exception)
+	}
+	
 }
