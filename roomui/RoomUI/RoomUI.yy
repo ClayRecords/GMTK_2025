@@ -169,7 +169,7 @@
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_B9C1DB4","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_B9C1DB4","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":6.3749995,"scaleY":6.6666665,"spriteId":{"name":"spr_ui_box","path":"sprites/spr_ui_box/spr_ui_box.yy",},"x":252.00003,"y":417.0,},
             {"$GMRFlexPanel":"","%Name":"Title","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":3,"value":44.0,},"justifyContent":1,"name":"Title","nodeColour":4294068330,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":198.0,},},
           ],"flexDirection":0,"height":{"unit":3,"value":96.0,},"justifyContent":1,"name":"BuildingPanel","nodeColour":4293216498,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":96.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"TrainUpgradeUI","nodeColour":4294103368,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"TrainUpgradeUI","nodeColour":4294103368,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"UILayer_2","alignItems":2,"children":[],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_2","nodeColour":4294070856,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
     {"$GMRUILayer":"v1","%Name":"UILayer_1","alignItems":2,"children":[],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_1","nodeColour":4282937586,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
   ],
@@ -182,5 +182,5 @@
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",
   "viewspaceChildren":[],
-  "visible":false,
+  "visible":true,
 }

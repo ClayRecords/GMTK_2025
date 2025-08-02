@@ -3,7 +3,6 @@
 
 /// @description Insert description here
 // You can write your code in this editor
-
 if (leader != noone) {
     // Follow the leader’s position on the path with offset
     var	pos = leader.path_position + car_offset;
@@ -24,7 +23,7 @@ if (leader != noone) {
 
     if (delta_x != 0 || delta_y != 0) {
         var dir = point_direction(prev_x, prev_y, x, y);
-        image_angle = dir +90;
+        image_angle = dir + 90;
     }
 
     // Update prev position for next step

@@ -7,7 +7,7 @@ else{
 	even_step = true;
 }
 
-if(global.pause) {
+if(global.pause or should_move == false) {
 	path_speed = 0;	
 } else {
 	path_speed = train_speed;

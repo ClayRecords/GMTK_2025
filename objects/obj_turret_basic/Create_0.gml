@@ -8,6 +8,7 @@ fire_cooldown = fire_rate;
 bullet_speed = 8;
 bullet_damage = 5;
 
+parent_car = noone;
 
 function get_lead_direction(
     source_x, source_y,

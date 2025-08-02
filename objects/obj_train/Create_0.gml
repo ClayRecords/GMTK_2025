@@ -30,6 +30,8 @@ circle_radius = 150;
 num_of_segments = 36; //higher number, smoother the path
 length_of_straightaway = 400;
 
+should_move = true;
+
 // First straightaway
 path_add_point(train_path,starting_x,starting_y, 50);
 path_add_point(train_path, starting_x-(length_of_straightaway/2), starting_y, 50);
@@ -71,6 +73,17 @@ function add_car(){
 	array_push(train_cars,car);
 }
 
+function add_weapon_to_next_car(weapon) {
+	var len = array_length(train_cars);
+	
+    for (var i = 0; i < len; i++) {
+        var car = train_cars[i];
+        if (instance_exists(car) && car.weapon == noone) {
+            car.add_weapon(weapon); // calls function inside the train car
+            break; // only add to one car per keypress
+        }
+    }
+}
 
 // Draw the track sprites
 var track_scale = 0.7 // How big the track image appears
@@ -116,3 +129,7 @@ for (var d = 0; d <= total_length; d += distance_step) {
 	}
 	i++;
 }
+
+self.add_car();
+self.add_weapon_to_next_car(obj_turret_basic);
+

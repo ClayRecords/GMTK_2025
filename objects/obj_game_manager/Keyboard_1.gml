@@ -14,11 +14,11 @@ if (keyboard_check(ord("1"))) {
 }
 
 if (keyboard_check(ord("2"))) {
-    room_goto(1);
+    room_goto(Dane_Room);
 }
 
 if (keyboard_check(ord("3"))) {
-    room_goto(2);
+    room_goto(Josiah_Room);
 }
 
 if (keyboard_check(ord("4"))) {
