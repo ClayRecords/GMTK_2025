@@ -72,7 +72,7 @@ function spawn_next_enemy() {
 			instance_create_layer(new_x, new_y, "Instances", obj_robot);
 	        break;
 		case "k":
-			var soldier = instance_create_layer(new_x, new_y, "Instances", obj_kneeling_soldier);
+			var soldier = instance_create_layer(new_x, new_y, "Instances", obj_soldier_kneeling);
 			break;
 	    default:
 	        break;

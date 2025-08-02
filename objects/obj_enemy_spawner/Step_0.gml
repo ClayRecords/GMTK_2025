@@ -1,4 +1,4 @@
-/// @description Handle debug mouse clicks
+/// @description Handle debug mouse clicks, end of wave
 
 if (obj_game_manager.debug) {
 	if (mouse_check_button_pressed(mb_left)) {
