@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_soldier",
+  "%Name":"obj_soldier_kneeling",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_toy_box","path":"objects/obj_toy_box/obj_toy_box.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_soldier",
+  "name":"obj_soldier_kneeling",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2.5",},
   ],
@@ -36,7 +36,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_soldier_kneeling",
+    "path":"sprites/spr_soldier_kneeling/spr_soldier_kneeling.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
