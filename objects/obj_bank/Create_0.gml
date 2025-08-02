@@ -12,7 +12,7 @@ cost_increment = 30;
 gold_upgrade_increment = 10;
 investment_rate_upgrade_increment = 0.01;
 
-function prepare_building() {
+function reach_building() {
 	gold_ready += gold_per_loop;
 	investment_account += investment_account * investment_rate;
 }

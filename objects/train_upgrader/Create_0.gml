@@ -5,13 +5,13 @@ option1_cost = 10;
 option2_cost = 20;
 option3_cost = 15;
 
-function prepare_building(){
+function reach_building(){
 	return;
 }
 
 function do_option1() {
 	if(option1_cost > obj_game_manager.gold){
-		exit;	
+		return;	
 	}
 	obj_game_manager.gold -= option1_cost;
 	option1_cost += 10;
@@ -20,7 +20,7 @@ function do_option1() {
 }
 function do_option2() {
 	if(option2_cost > obj_game_manager.gold){
-		exit;	
+		return;	
 	}
 	obj_game_manager.gold -= option2_cost;
 	option2_cost += 30;
@@ -28,10 +28,10 @@ function do_option2() {
 }
 function do_option3() {
 	if(option3_cost > obj_game_manager.gold){
-		exit;	
+		return;	
 	}
-	obj_game_manager.gold -= option1_cost;
-	option1_cost += 15;
+	obj_game_manager.gold -= option3_cost;
+	option3_cost += 15;
 	obj_train.add_car();
 }
 

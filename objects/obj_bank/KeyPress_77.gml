@@ -1,0 +1,1 @@
+obj_game_manager.gold += 1000000
