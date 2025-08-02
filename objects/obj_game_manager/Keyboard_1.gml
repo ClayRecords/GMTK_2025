@@ -12,7 +12,7 @@ if (keyboard_check(ord("3"))) {
 }
 
 if (keyboard_check(ord("4"))) {
-    room_goto(Room4);
+    room_goto(Clay_Room);
 }
 
 if(keyboard_check(ord("K"))){
