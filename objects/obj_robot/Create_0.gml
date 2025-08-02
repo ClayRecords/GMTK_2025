@@ -14,5 +14,6 @@ life_count = 0;
 
 bullet_speed = 4;
 bullet_damage = 5;
+collision_damage = 10;
 
 alarm[0] = walk_interval;
