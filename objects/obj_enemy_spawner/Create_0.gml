@@ -1,8 +1,7 @@
 all_waves = [
-	[{"r": 20, "k": 2}, {"s": 10}],
-	[{"k": 2}, {"s": 2}],
-	[{"s": 2}, {"s": 6, "r": 1}, {"s": 8, "r": 2}],
-	[{"s": 15}],
+	[{"s": 2, "k": 1}, {"s": 5, "k": 3, "r": 1}],
+	[{"s": 7, "k": 2, "r": 1}, {"s": 12, "k": 5, "r": 2}, {"r": 3}],
+	[{"s": 20}],
 	[{"s": 20}]
 ];
 
@@ -19,8 +18,7 @@ time_between_sub_waves = global.one_second * 5;
 sub_wave_spawn_rate = global.one_second;
 
 // Kickoff
-//alarm[0] = time_between_waves;
-start_next_wave();
+alarm[0] = time_between_waves;
 
 function start_next_wave() {
 	// Check if no more waves

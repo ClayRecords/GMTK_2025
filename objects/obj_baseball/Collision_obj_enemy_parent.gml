@@ -1,0 +1,1 @@
+other.current_health = 0;

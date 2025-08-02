@@ -23,6 +23,6 @@ if(keyboard_check(ord("K"))){
 	instance_create_layer(px, py, lyr, obj_mouse_trap);
 }
 
-if(keyboard_check(ord("c"))) {
+if(keyboard_check(ord("C"))) {
 	room_goto(Caleb_Room);
 }

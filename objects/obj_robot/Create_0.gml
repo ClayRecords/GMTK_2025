@@ -1,7 +1,8 @@
 /// @description
 event_inherited();
 
-image_angle = direction;
+image_xscale = global.model_scale;
+image_yscale = global.model_scale;
 
 walk_interval = global.one_second * 3;
 pause_interval = global.one_second * 4;
@@ -14,5 +15,6 @@ life_count = 0;
 
 bullet_speed = 4;
 bullet_damage = 5;
+collision_damage = 10;
 
 alarm[0] = walk_interval;

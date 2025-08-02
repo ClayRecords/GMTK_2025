@@ -1,5 +1,6 @@
 debug = false;
 global.one_second = game_get_speed(gamespeed_fps);
+global.model_scale = 2;
 
 cents = 0;
 imagination = 0;
