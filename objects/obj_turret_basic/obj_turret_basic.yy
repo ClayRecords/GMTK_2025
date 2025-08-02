@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_basic_turret_base",
-    "path":"sprites/spr_basic_turret_base/spr_basic_turret_base.yy",
+    "name":"spr_basic_turret",
+    "path":"sprites/spr_basic_turret/spr_basic_turret.yy",
   },
   "spriteMaskId":null,
   "visible":true,
