@@ -8,12 +8,11 @@ if (obj_game_manager.debug) {
 	if (mouse_check_button_pressed(mb_right)) {
 	    var xx = mouse_x;
 	    var yy = mouse_y;
-		instance_create_layer(xx, yy, "Instances", obj_soldier);
+		instance_create_layer(xx, yy, "Instances", obj_robot);
 	}
 }
 
 if (self.active_wave != noone && !self.wave_is_spawning) {
-	print("Wave done spawning?")
 	// Get all enemies
 	var enemies_count = instance_number(obj_enemy_parent);
 	
