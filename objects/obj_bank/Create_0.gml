@@ -49,7 +49,7 @@ function do_option3() {
 
 function set_text() {
 	option1_description = "Collect " + str(cents_ready) + " !"
-	option2_description = "Invest " + str(cents_per_loop) + " 🥇, at a rate of " + str(investment_rate) + "\nCurrent Assets: " + str(investment_account);
-	option3_description = "Upgrade cents / Loop & Rate for: " + str(cost_to_upgrade) + "\nNext Level:\ncents / Loop: " + str(cents_per_loop + cents_upgrade_increment) + "\nRate: " + str(investment_rate + investment_rate_upgrade_increment)
+	option2_description = "Invest " + str(cents_per_loop) + " ©, at a rate of " + str(investment_rate) + "\nCurrent Assets: " + str(investment_account);
+	option3_description = "Upgrade cents / Loop & Rate for: " + str(cost_to_upgrade) + "\nNext Level:\n© / Loop: " + str(cents_per_loop + cents_upgrade_increment) + "\nRate: " + str(investment_rate + investment_rate_upgrade_increment)
 	option_descriptions = [option1_description, option2_description, option3_description];
 }
