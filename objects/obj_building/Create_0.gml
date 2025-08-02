@@ -2,7 +2,7 @@ just_passed_or_entered = false;
 building_layer_name = noone;
 distance_to_stop_at_building = 100;
 option_descriptions = [];
-stopsign = instance_create_layer(x+68, y, "Instances", obj_stopsign);
+stopsign = instance_create_layer(x+30, y, "Buildings", obj_stopsign);
 
 function pass_or_enter_building() {
 	just_passed_or_entered = true
@@ -32,6 +32,3 @@ function leave_building() {
 	obj_train.train_speed = 5;
 }
 
-
-
-// Add do_building_interaction function4
