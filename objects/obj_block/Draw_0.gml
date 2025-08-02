@@ -1,9 +1,6 @@
-if (!active) {
-    draw_set_alpha(0.5);
-    draw_sprite(spr_block, 0, x, y);
-    draw_set_alpha(1);
-} else {
-    draw_sprite(spr_block, 0, x, y);
+event_inherited()
+
+if (is_active) {
 	if (self.health != self.max_health) {
 		var health_x_off = 10;
 		var health_y_off = 2;

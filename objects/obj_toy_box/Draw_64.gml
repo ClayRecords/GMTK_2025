@@ -1,4 +1,6 @@
-/// @description Draw health bar
+// @description Draw health bar
+draw_stacked_sprite(self)
+
 if (self.current_health != self.max_health) {
 	var health_x_off = 10;
 	var health_y_off = 2;

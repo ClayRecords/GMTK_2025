@@ -2,19 +2,23 @@
   "$GMObject":"",
   "%Name":"obj_baseball",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_baseball",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_equipment","path":"objects/obj_equipment/obj_equipment.yy",},"propertyId":{"name":"equipment_sprite","path":"objects/obj_equipment/obj_equipment.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_baseball",},
+  ],
   "parent":{
     "name":"equipment",
     "path":"folders/Objects/equipment.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_equipment",
+    "path":"objects/obj_equipment/obj_equipment.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
