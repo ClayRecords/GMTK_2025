@@ -18,6 +18,34 @@ function leave_building() {
 	toggle_interact_menu();
 }
 
+
+// Purchase dart gun
+function do_option1() {
+	if (obj_game_manager.cents < dart_gun_cost or !train_has_empty_car()) {
+		return;
+	}
+	obj_game_manager.cents -= dart_gun_cost;
+	dart_gun_cost += dart_gun_cost_increment;
+	obj_train.add_weapon_to_next_car(obj_turret_basic);
+}
+
+// Upgrade dart gun
+function do_option2() {
+	if (obj_game_manager.cents < dart_gun_upgrade_cost) {
+		return;
+	}
+	obj_game_manager.cents -= dart_gun_upgrade_cost;
+	dart_gun_upgrade_cost += dart_gun_upgrade_cost_increment;
+	add_turret_damage_range(obj_turret_basic, dart_gun_damage_increment, dart_gun_range_increment)
+	
+	
+}
+
+// 
+function do_option3() {
+	return;
+}
+
 function prepare_toybox() {
 	set_text();
 }
