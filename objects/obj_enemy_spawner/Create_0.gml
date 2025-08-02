@@ -23,17 +23,17 @@ sub_wave_spawn_rate = global.one_second;
 start_next_wave();
 
 function start_next_wave() {
-	wave_index++;
-	wave_is_spawning = true;
-	active_wave = all_waves[wave_index];
-	sub_wave_index = -1;
-	start_next_sub_wave();
-	
 	// Check if no more waves
 	if (wave_index >= array_length(all_waves) - 1) {
 		print("Winner winner!")
 		return;
 	}
+	
+	wave_index++;
+	wave_is_spawning = true;
+	active_wave = all_waves[wave_index];
+	sub_wave_index = -1;
+	start_next_sub_wave();
 }
 
 function start_next_sub_wave() {
