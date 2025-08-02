@@ -32,7 +32,7 @@
     {"$GMFolder":"","%Name":"enemies","folderPath":"folders/Sprites/enemies.yy","name":"enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menus","folderPath":"folders/Sprites/menus.yy","name":"menus","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sliced","folderPath":"folders/Sprites/sliced.yy","name":"sliced","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"tracks","folderPath":"folders/Sprites/tracks.yy","name":"tracks","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"track_sprites","folderPath":"folders/Sprites/track_sprites.yy","name":"track_sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"trains","folderPath":"folders/Sprites/trains.yy","name":"trains","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"turrets","folderPath":"folders/Sprites/turrets.yy","name":"turrets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"basic","folderPath":"folders/Sprites/turrets/basic.yy","name":"basic","resourceType":"GMFolder","resourceVersion":"2.0",},
