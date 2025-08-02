@@ -9,12 +9,17 @@
   ],
   "managed":true,
   "name":"obj_block",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_equipment","path":"objects/obj_equipment/obj_equipment.yy",},"propertyId":{"name":"equipment_sprite","path":"objects/obj_equipment/obj_equipment.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_block",},
+  ],
   "parent":{
     "name":"equipment",
     "path":"folders/Objects/equipment.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_equipment",
+    "path":"objects/obj_equipment/obj_equipment.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
