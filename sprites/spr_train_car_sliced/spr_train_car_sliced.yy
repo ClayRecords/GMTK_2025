@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"sliced",
-    "path":"folders/Sprites/sliced.yy",
+    "name":"train",
+    "path":"folders/Sprites/train.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
