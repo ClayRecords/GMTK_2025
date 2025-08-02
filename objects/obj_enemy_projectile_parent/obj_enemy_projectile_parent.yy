@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_projectile_parent",
+  "%Name":"obj_enemy_projectile_parent",
   "eventList":[],
   "managed":true,
-  "name":"obj_projectile_parent",
+  "name":"obj_enemy_projectile_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"enemies",
+    "path":"folders/Objects/enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_projectile",
+    "path":"objects/obj_projectile/obj_projectile.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -20,7 +20,7 @@ if (!is_active) {
 		if (clicked_on_hotbar) {
 			with(obj_hotbar_button) {
 				if (trap_name == my_trap_name) {
-					quantity = quantity + 1;
+					quantity += 1;
 				}
 			}
 			

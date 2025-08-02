@@ -1,1 +1,1 @@
-other.current_health = 0;
+other.current_health -= 20;
