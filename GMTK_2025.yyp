@@ -109,6 +109,7 @@
     {"id":{"name":"spr_mouse_trap","path":"sprites/spr_mouse_trap/spr_mouse_trap.yy",},},
     {"id":{"name":"spr_pause_menu","path":"sprites/spr_pause_menu/spr_pause_menu.yy",},},
     {"id":{"name":"spr_robot_sliced","path":"sprites/spr_robot_sliced/spr_robot_sliced.yy",},},
+    {"id":{"name":"spr_robot_walk","path":"sprites/spr_robot_walk/spr_robot_walk.yy",},},
     {"id":{"name":"spr_robot","path":"sprites/spr_robot/spr_robot.yy",},},
     {"id":{"name":"spr_running_soldier","path":"sprites/spr_running_soldier/spr_running_soldier.yy",},},
     {"id":{"name":"spr_soldier_bullet","path":"sprites/spr_soldier_bullet/spr_soldier_bullet.yy",},},

@@ -40,6 +40,7 @@
     {"name":"spr_main_menu_button","order":4,"path":"sprites/spr_main_menu_button/spr_main_menu_button.yy",},
     {"name":"spr_pause_menu","order":3,"path":"sprites/spr_pause_menu/spr_pause_menu.yy",},
     {"name":"spr_robot_sliced","order":5,"path":"sprites/spr_robot_sliced/spr_robot_sliced.yy",},
+    {"name":"spr_robot_walk","order":4,"path":"sprites/spr_robot_walk/spr_robot_walk.yy",},
     {"name":"spr_robot","order":2,"path":"sprites/spr_robot/spr_robot.yy",},
     {"name":"spr_running_soldier","order":4,"path":"sprites/spr_running_soldier/spr_running_soldier.yy",},
     {"name":"spr_soldier_bullet","order":3,"path":"sprites/spr_soldier_bullet/spr_soldier_bullet.yy",},
