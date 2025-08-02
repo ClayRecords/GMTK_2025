@@ -10,27 +10,27 @@ function reach_building(){
 }
 
 function do_option1() {
-	if(option1_cost > obj_game_manager.gold){
+	if(option1_cost > obj_game_manager.cents){
 		return;	
 	}
-	obj_game_manager.gold -= option1_cost;
+	obj_game_manager.cents -= option1_cost;
 	option1_cost += 10;
 	obj_train.min_train_speed = max(obj_train.min_train_speed - 2, 0);
 	obj_train.max_train_speed += 2;
 }
 function do_option2() {
-	if(option2_cost > obj_game_manager.gold){
+	if(option2_cost > obj_game_manager.cents){
 		return;	
 	}
-	obj_game_manager.gold -= option2_cost;
+	obj_game_manager.cents -= option2_cost;
 	option2_cost += 30;
 	obj_train.train_power_level++;
 }
 function do_option3() {
-	if(option3_cost > obj_game_manager.gold){
+	if(option3_cost > obj_game_manager.cents){
 		return;	
 	}
-	obj_game_manager.gold -= option3_cost;
+	obj_game_manager.cents -= option3_cost;
 	option3_cost += 15;
 	obj_train.add_car();
 }

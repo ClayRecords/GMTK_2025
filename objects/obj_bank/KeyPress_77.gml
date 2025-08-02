@@ -1,1 +1,1 @@
-obj_game_manager.gold += 1000000
+obj_game_manager.cents += 1000000
