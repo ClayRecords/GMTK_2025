@@ -7,6 +7,10 @@ if (keyboard_check(ord("0"))) {
 	room_goto(Room_TrainTrack)
 }
 
+if (keyboard_check(ord("1"))) {
+	room_goto(Molly_Art_Studio);
+}
+
 if (keyboard_check(ord("3"))) {
     room_goto(Josiah_Room);
 }

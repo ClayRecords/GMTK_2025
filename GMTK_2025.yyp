@@ -87,6 +87,7 @@
     {"id":{"name":"Caleb_Room","path":"rooms/Caleb_Room/Caleb_Room.yy",},},
     {"id":{"name":"Clay_Room","path":"rooms/Clay_Room/Clay_Room.yy",},},
     {"id":{"name":"Josiah_Room","path":"rooms/Josiah_Room/Josiah_Room.yy",},},
+    {"id":{"name":"Molly_Art_Studio","path":"rooms/Molly_Art_Studio/Molly_Art_Studio.yy",},},
     {"id":{"name":"Room_TrainTrack","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
@@ -122,6 +123,7 @@
     {"id":{"name":"spr_train_car_sliced","path":"sprites/spr_train_car_sliced/spr_train_car_sliced.yy",},},
     {"id":{"name":"spr_train_sliced","path":"sprites/spr_train_sliced/spr_train_sliced.yy",},},
     {"id":{"name":"spr_train_upgrader","path":"sprites/spr_train_upgrader/spr_train_upgrader.yy",},},
+    {"id":{"name":"spr_turret","path":"sprites/spr_turret/spr_turret.yy",},},
     {"id":{"name":"spr_ui_back","path":"sprites/spr_ui_back/spr_ui_back.yy",},},
     {"id":{"name":"spr_ui_box","path":"sprites/spr_ui_box/spr_ui_box.yy",},},
     {"id":{"name":"spr_ui_button","path":"sprites/spr_ui_button/spr_ui_button.yy",},},
@@ -139,6 +141,7 @@
     {"roomId":{"name":"Clay_Room","path":"rooms/Clay_Room/Clay_Room.yy",},},
     {"roomId":{"name":"Josiah_Room","path":"rooms/Josiah_Room/Josiah_Room.yy",},},
     {"roomId":{"name":"Caleb_Room","path":"rooms/Caleb_Room/Caleb_Room.yy",},},
+    {"roomId":{"name":"Molly_Art_Studio","path":"rooms/Molly_Art_Studio/Molly_Art_Studio.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
