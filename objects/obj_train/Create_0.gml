@@ -110,6 +110,10 @@ for (var d = 0; d <= total_length; d += distance_step) {
 		inst.image_yscale = inst.image_yscale * track_scale
 	} catch (_exception) {
 		print(_exception)
-	}
-	
+	}	
 }
+
+
+self.add_car();
+self.add_weapon_to_next_car(obj_turret_basic);
+

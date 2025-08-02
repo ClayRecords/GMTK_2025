@@ -19,6 +19,8 @@
     {"name":"obj_track_straight","order":10,"path":"objects/obj_track_straight/obj_track_straight.yy",},
     {"name":"obj_train_car","order":9,"path":"objects/obj_train_car/obj_train_car.yy",},
     {"name":"art_gallery","order":1,"path":"rooms/art_gallery/art_gallery.yy",},
+    {"name":"Dane_Room","order":4,"path":"rooms/Dane_Room/Dane_Room.yy",},
+    {"name":"Josiah_Room","order":3,"path":"rooms/Josiah_Room/Josiah_Room.yy",},
     {"name":"Room_TrainTrack","order":2,"path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},
     {"name":"draw_stacked_sprite","order":1,"path":"scripts/draw_stacked_sprite/draw_stacked_sprite.yy",},
     {"name":"camera","order":17,"path":"sprites/camera/camera.yy",},
