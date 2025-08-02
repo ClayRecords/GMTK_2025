@@ -28,6 +28,7 @@
     {"name":"obj_toy_box","order":2,"path":"objects/obj_toy_box/obj_toy_box.yy",},
     {"name":"obj_track_straight","order":10,"path":"objects/obj_track_straight/obj_track_straight.yy",},
     {"name":"obj_train_car","order":9,"path":"objects/obj_train_car/obj_train_car.yy",},
+    {"name":"Caleb_Room","order":4,"path":"rooms/Caleb_Room/Caleb_Room.yy",},
     {"name":"Josiah_Room","order":3,"path":"rooms/Josiah_Room/Josiah_Room.yy",},
     {"name":"Room_TrainTrack","order":2,"path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},
     {"name":"draw_stacked_sprite","order":1,"path":"scripts/draw_stacked_sprite/draw_stacked_sprite.yy",},

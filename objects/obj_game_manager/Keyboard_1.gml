@@ -22,3 +22,7 @@ if(keyboard_check(ord("K"))){
 	var lyr = layer_get_id("Equipment");
 	instance_create_layer(px, py, lyr, obj_mouse_trap);
 }
+
+if(keyboard_check(ord("c"))) {
+	room_goto(Caleb_Room);
+}

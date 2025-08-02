@@ -82,6 +82,7 @@
     {"id":{"name":"obj_turret_basic","path":"objects/obj_turret_basic/obj_turret_basic.yy",},},
     {"id":{"name":"obj_turret_parent","path":"objects/obj_turret_parent/obj_turret_parent.yy",},},
     {"id":{"name":"train_upgrader","path":"objects/train_upgrader/train_upgrader.yy",},},
+    {"id":{"name":"Caleb_Room","path":"rooms/Caleb_Room/Caleb_Room.yy",},},
     {"id":{"name":"Josiah_Room","path":"rooms/Josiah_Room/Josiah_Room.yy",},},
     {"id":{"name":"Room_TrainTrack","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -134,6 +135,7 @@
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room_TrainTrack","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},},
     {"roomId":{"name":"Josiah_Room","path":"rooms/Josiah_Room/Josiah_Room.yy",},},
+    {"roomId":{"name":"Caleb_Room","path":"rooms/Caleb_Room/Caleb_Room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
