@@ -31,7 +31,7 @@ function do_option3() {
 		exit;	
 	}
 	obj_game_manager.gold -= option1_cost;
-	option1_cost += 15;
+	option3_cost += 15;
 	obj_train.add_car();
 }
 
