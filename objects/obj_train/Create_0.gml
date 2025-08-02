@@ -1,8 +1,4 @@
-/// @description Insert description here
-// On creation the train should initialize it's path. 
-// In theory this can be drawn by a user
-// on top of the background if they want. 
-// For now I am just making the path a circle
+/// @description Init path, add tracks
 
 // IMPORTANT! This only works when the length_of_straightaway 
 // is double the circle_radius
@@ -22,7 +18,6 @@ train_power_level = 1;
 train_speed = 5;
 min_train_speed = 8;
 max_train_speed = 12;
-duration_between_speed_change = 30;
 
 circle_radius = 150;
 num_of_segments = 36; //higher number, smoother the path

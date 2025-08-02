@@ -1,2 +1,2 @@
-/// @description Insert description here
+/// @description Debug
 debug = !debug;
