@@ -2,7 +2,9 @@
 
 event_inherited();
 
-gun_sprite = spr_basic_turret_gun;
+image_xscale = global.model_scale;
+image_yscale = global.model_scale;
+
 fire_rate = global.one_second * 1.5;
 fire_cooldown = fire_rate;
 bullet_speed = 8;

@@ -2,6 +2,5 @@
 
 event_inherited();
 
-image_angle = direction + 90;
-self.image_xscale = 2
-self.image_yscale = 2
+image_xscale = global.model_scale;
+image_yscale = global.model_scale;

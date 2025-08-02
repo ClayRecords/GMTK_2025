@@ -35,6 +35,7 @@
     {"name":"draw_stacked_sprite","order":1,"path":"scripts/draw_stacked_sprite/draw_stacked_sprite.yy",},
     {"name":"spr_bank","order":1,"path":"sprites/spr_bank/spr_bank.yy",},
     {"name":"spr_baseball","order":1,"path":"sprites/spr_baseball/spr_baseball.yy",},
+    {"name":"spr_basic_turret_bullet","order":1,"path":"sprites/spr_basic_turret_bullet/spr_basic_turret_bullet.yy",},
     {"name":"spr_block","order":2,"path":"sprites/spr_block/spr_block.yy",},
     {"name":"spr_carpet","order":9,"path":"sprites/spr_carpet/spr_carpet.yy",},
     {"name":"spr_crane","order":4,"path":"sprites/spr_crane/spr_crane.yy",},

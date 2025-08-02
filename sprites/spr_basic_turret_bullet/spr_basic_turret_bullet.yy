@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_basic_turret_gun",
+  "%Name":"spr_basic_turret_bullet",
   "bboxMode":0,
-  "bbox_bottom":38,
+  "bbox_bottom":63,
   "bbox_left":25,
   "bbox_right":38,
   "bbox_top":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1d983cd4-e4c0-4902-90a5-ff2c580de4b1","name":"1d983cd4-e4c0-4902-90a5-ff2c580de4b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"40089ee5-09cf-447a-8c1d-cd16c7eaaef9","name":"40089ee5-09cf-447a-8c1d-cd16c7eaaef9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c2227682-8bee-48a6-8e13-f8b3ad539cb5","blendMode":0,"displayName":"default","isLocked":false,"name":"c2227682-8bee-48a6-8e13-f8b3ad539cb5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ed14d974-e002-4fc7-bba2-63e589db3c3b","blendMode":0,"displayName":"default","isLocked":false,"name":"ed14d974-e002-4fc7-bba2-63e589db3c3b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_basic_turret_gun",
+  "name":"spr_basic_turret_bullet",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_basic_turret_gun",
+    "%Name":"spr_basic_turret_bullet",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_basic_turret_gun",
+    "name":"spr_basic_turret_bullet",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d983cd4-e4c0-4902-90a5-ff2c580de4b1","path":"sprites/spr_basic_turret_gun/spr_basic_turret_gun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"01fd5dfe-a61d-42ba-93d3-5aacc0cb7cdf","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40089ee5-09cf-447a-8c1d-cd16c7eaaef9","path":"sprites/spr_basic_turret_bullet/spr_basic_turret_bullet.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5b900a44-d69f-499b-badf-fa41199bf3a4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

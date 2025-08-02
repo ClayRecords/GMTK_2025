@@ -1,5 +1,6 @@
 /// @description Sprite stacking, charge spark
 
+image_angle = direction;
 draw_stacked_sprite(self);
 
 if (charging_fire) {
