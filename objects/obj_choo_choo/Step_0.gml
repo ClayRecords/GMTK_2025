@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Pause, change dir and angle by pos
 
 if(global.pause) {
 	path_speed = 0;	

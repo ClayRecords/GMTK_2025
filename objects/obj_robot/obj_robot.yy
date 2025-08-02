@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_robot",
-    "path":"sprites/spr_robot/spr_robot.yy",
+    "name":"spr_robot_sliced",
+    "path":"sprites/spr_robot_sliced/spr_robot_sliced.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,6 +1,6 @@
-/// @description Draw charge spark
+/// @description Sprite stacking, charge spark
 
-draw_self();
+draw_stacked_sprite(self);
 
 if (charging_fire) {
 	if (charge_fire_count % charge_file_rotation_rate == 0) {

@@ -6,8 +6,6 @@
 
 // IMPORTANT! This only works when the length_of_straightaway 
 // is double the circle_radius
-
-even_step = false;
 train_path = path_add();
 
 starting_x = x;
@@ -95,7 +93,6 @@ var distance_step = total_length / track_count; // how close together the tracks
 var tracks_per_segment = 24; 
 
 //var connector_offset = 15; // necessary to see the full connector art
-//print(segment_count)
 var i = 0;
 var connector_track = noone;
 for (var d = 0; d <= total_length; d += distance_step) {
@@ -133,3 +130,13 @@ for (var d = 0; d <= total_length; d += distance_step) {
 self.add_car();
 self.add_weapon_to_next_car(obj_turret_basic);
 
+
+function increase_train_speed() {
+	var new_train_speed = max(train_speed - 1, min_train_speed);
+	train_speed = new_train_speed;
+}
+
+function decrease_train_speed() {
+	var new_train_speed = min(train_speed + 1, max_train_speed);
+	train_speed = new_train_speed;
+}

@@ -1,11 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (even_step) {
-	even_step = false;
-}
-else{
-	even_step = true;
-}
 
 if(global.pause or should_move == false) {
 	path_speed = 0;	

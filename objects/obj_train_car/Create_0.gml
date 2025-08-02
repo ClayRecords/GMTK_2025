@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description 
 
 // Find the leader train instance
 leader = instance_find(obj_train, 0);

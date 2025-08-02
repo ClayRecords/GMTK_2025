@@ -1,6 +1,8 @@
 /// @description
 event_inherited();
 
+image_angle = direction;
+
 walk_interval = global.one_second * 3;
 pause_interval = global.one_second * 4;
 fire_interval = global.one_second * 3;

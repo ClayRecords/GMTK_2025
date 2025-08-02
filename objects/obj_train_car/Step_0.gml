@@ -1,8 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Follow the leader
 
-/// @description Insert description here
-// You can write your code in this editor
 if (leader != noone) {
     // Follow the leader’s position on the path with offset
     var	pos = leader.path_position + car_offset;
