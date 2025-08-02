@@ -30,6 +30,7 @@
     {"name":"spr_kneeling_soldier","order":2,"path":"sprites/spr_kneeling_soldier/spr_kneeling_soldier.yy",},
     {"name":"spr_main_menu_button","order":12,"path":"sprites/spr_main_menu_button/spr_main_menu_button.yy",},
     {"name":"spr_pause_menu","order":11,"path":"sprites/spr_pause_menu/spr_pause_menu.yy",},
+    {"name":"spr_spark","order":1,"path":"sprites/spr_spark/spr_spark.yy",},
     {"name":"spr_robot_sliced","order":5,"path":"sprites/spr_robot_sliced/spr_robot_sliced.yy",},
     {"name":"spr_running_soldier","order":4,"path":"sprites/spr_running_soldier/spr_running_soldier.yy",},
     {"name":"spr_standing_soldier","order":3,"path":"sprites/spr_standing_soldier/spr_standing_soldier.yy",},

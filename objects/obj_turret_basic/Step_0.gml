@@ -1,4 +1,4 @@
-/// @description 
+/// @description Fire!
 
 if (target != noone) {
 	fire_direction = get_lead_direction(x, y, bullet_speed, target.x, target.y, target.hspeed, target.vspeed);	
