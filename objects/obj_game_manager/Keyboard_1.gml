@@ -38,3 +38,11 @@ if (keyboard_check_pressed(ord("M"))) {
 	var current_state = layer_get_visible(shop_layer_name);
     layer_set_visible(shop_layer_name, !current_state);
 }
+
+if(keyboard_check(ord("K"))){
+var px = mouse_x;
+var py = mouse_y;
+
+var lyr = layer_get_id("Equipment");
+instance_create_layer(px, py, lyr, obj_mouse_trap);
+}
