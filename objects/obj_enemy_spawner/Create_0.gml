@@ -1,6 +1,6 @@
 all_waves = [
-	[{"s": 1}, {"s": 1}],
-	[{"s": 2}, {"s": 2}],
+	[{"k": 2}, {"s": 1}],
+	[{"k": 2}, {"s": 2}],
 	[{"s": 2}, {"s": 6, "r": 1}, {"s": 8, "r": 2}],
 	[{"s": 15}],
 	[{"s": 20}]
@@ -23,17 +23,17 @@ sub_wave_spawn_rate = global.one_second;
 start_next_wave();
 
 function start_next_wave() {
-	wave_index++;
-	wave_is_spawning = true;
-	active_wave = all_waves[wave_index];
-	sub_wave_index = -1;
-	start_next_sub_wave();
-	
 	// Check if no more waves
 	if (wave_index >= array_length(all_waves) - 1) {
 		print("Winner winner!")
 		return;
 	}
+	
+	wave_index++;
+	wave_is_spawning = true;
+	active_wave = all_waves[wave_index];
+	sub_wave_index = -1;
+	start_next_sub_wave();
 }
 
 function start_next_sub_wave() {
@@ -59,13 +59,21 @@ function spawn_next_enemy() {
 		variable_struct_remove(active_sub_wave, enemy_key);
 	}
 	
+	x_and_y = generate_x_and_y();
+	var new_x = x_and_y[0];
+	var new_y = x_and_y[1];
+	
 	// Do the spawn
 	switch (enemy_key) {
 	    case "s":
-			instance_create_layer(0, 0, "Instances", obj_soldier);
+			instance_create_layer(new_x, new_y, "Instances", obj_soldier);
 			break;
 	    case "r":
+			instance_create_layer(new_x, new_y, "Instances", obj_robot);
 	        break;
+		case "k":
+			var soldier = instance_create_layer(new_x, new_y, "Instances", obj_kneeling_soldier);
+			break;
 	    default:
 	        break;
 	}
@@ -105,4 +113,20 @@ function get_random_sub_wave_enemy_name() {
 function struct_key_count(struct) {
 	var key_list = struct_get_names(struct);
 	return array_length(key_list);
+}
+function generate_x_and_y() {
+	var half_w = room_width  * 0.5;
+	var half_h = room_height * 0.5;
+
+	var spawn_patterns = [
+		function() { return [random_range(0, room_width  * 0.5), 0]; },                      // Top left
+		function() { return [random_range(room_width  * 0.5, room_width), 0]; },            // Top right
+		function() { return [room_width, random_range(0, room_height)]; },       // Right
+		function() { return [random_range(room_width  * 0.5, room_width), room_height]; },  // Bottom right
+		function() { return [random_range(0, room_width  * 0.5), room_height]; },           // Bottom left
+		function() { return [0, random_range(0, room_height)]; }                 // Left
+	];
+
+	var i = irandom(array_length(spawn_patterns) - 1);
+	return spawn_patterns[i]();
 }
