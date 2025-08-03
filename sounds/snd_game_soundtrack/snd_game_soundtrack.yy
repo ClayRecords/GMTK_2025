@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_soundtrack",
+  "%Name":"snd_game_soundtrack",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":111.85632,
-  "name":"snd_soundtrack",
+  "name":"snd_game_soundtrack",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_soundtrack.mp3",
+  "soundFile":"snd_game_soundtrack.mp3",
   "type":0,
   "volume":1.0,
 }

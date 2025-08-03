@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_speed_lever",
+  "%Name":"obj_main_menu_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_speed_lever",
+  "name":"obj_main_menu_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"menus",
-    "path":"folders/Objects/menus.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_speed_lever",
-    "path":"sprites/spr_speed_lever/spr_speed_lever.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
