@@ -1,10 +1,10 @@
 /// @description Draw tiled
 
-depth = 400;
-var scale = 0.25;
+depth = 600;
+var scale = 0.5;
 draw_sprite_tiled_ext(
 	spr_carpet, 0,
 	x, y,
 	scale, scale,
-	c_black, .5
+	c_black, .85
 );
