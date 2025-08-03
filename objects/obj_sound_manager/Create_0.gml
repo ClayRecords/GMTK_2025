@@ -1,5 +1,5 @@
 /// @description sounds map
-main_menu_soundtrack = audio_play_sound(snd_main_menu_soundtrack, 9, true, 0.4, 4.5)	
+main_menu_soundtrack = audio_play_sound(snd_main_menu_soundtrack, 9, true, 0, 4.5);	
 game_soundtrack = audio_play_sound(snd_game_soundtrack, 9, true, 0, 0);
 
 sounds_map = {
