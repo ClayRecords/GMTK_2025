@@ -7,6 +7,7 @@ stopsign_offset_y = -40;
 stopsign = instance_create_layer(x + stopsign_offset_x, y + stopsign_offset_y, "Buildings", obj_go);
 stopsign.image_xscale = 2
 stopsign.image_yscale = 2
+mouse_over = false
 
 function pass_or_enter_building() {
 	just_passed_or_entered = true
