@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_soldier_bullet",
   "bboxMode":0,
   "bbox_bottom":32,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b3c0a766-b91b-4f58-b5fc-bb82bddd79c2","name":"b3c0a766-b91b-4f58-b5fc-bb82bddd79c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b3c0a766-b91b-4f58-b5fc-bb82bddd79c2","name":"b3c0a766-b91b-4f58-b5fc-bb82bddd79c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
