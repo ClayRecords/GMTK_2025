@@ -17,10 +17,13 @@ car_spacing = 0.04;
 train_cars = [];
 max_number_of_cars = 20;
 
-train_power_level = 1;
-train_speed = 5;
-min_train_speed = 8;
-max_train_speed = 12;
+train_ramming_damage = 1;
+
+train_base_speed = 5;
+train_speed = train_base_speed;
+max_train_gear = 0;
+current_gear = 0;
+gear_speed_modifier = 1.5;
 
 circle_radius = 175;
 num_of_segments = 40; //higher number, smoother the path
@@ -57,7 +60,7 @@ for (var i = num_of_segments; i >= 0; i--) {
 }
 path_add_point(train_path,starting_x,starting_y, 50);
 
-// Start the pat using path_action_restart
+// Start the path using path_action_restart
 path_start(train_path, train_speed, path_action_restart, true);
 
 
@@ -127,17 +130,9 @@ for (var d = 0; d <= total_length; d += distance_step) {
 
 self.add_car();
 self.add_weapon_to_next_car(obj_turret_basic);
+beat = 60*60/120;
+alarm[0] = beat;
 
-
-function increase_train_speed() {
-	var new_train_speed = max(train_speed - 1, min_train_speed);
-	train_speed = new_train_speed;
+function get_train_speed() {
+	train_speed = train_base_speed * power(gear_speed_modifier, current_gear)
 }
-
-function decrease_train_speed() {
-	var new_train_speed = min(train_speed + 1, max_train_speed);
-	train_speed = new_train_speed;
-}
-
-
-//train_sound = audio_play_sound(snd_, 1, true, 0.25, 4.5);

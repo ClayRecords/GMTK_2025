@@ -9,10 +9,10 @@ stopsign.image_yscale = 2
 function pass_or_enter_building() {
 	just_passed_or_entered = true
 	reach_building();
-	print("stop sign should stop:", stopsign.should_stop)
 	if (stopsign.should_stop) {
 		print("Stopped at building");
 		obj_train.train_speed = 0;
+		obj_train.should_move = false;
 		obj_building_manager.current_building = self;
 		toggle_interact_menu(); // Generic building interaction function to be defined in child class
 	}
@@ -32,6 +32,8 @@ function leave_building() {
 	print("Left building")
 	toggle_interact_menu();
 	stopsign.should_stop = false;
+	obj_train.should_move = true;
 	obj_train.train_speed = 5;
+
 }
 

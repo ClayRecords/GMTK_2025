@@ -1,1 +1,3 @@
-keyboard_key_press(vk_escape);
+global.pause = !global.pause;
+
+layer_set_visible(obj_pause_controller.pause_layer, global.pause);

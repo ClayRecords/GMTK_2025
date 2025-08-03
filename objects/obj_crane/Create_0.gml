@@ -1,5 +1,6 @@
 // Inherit the parent event
 event_inherited();
+image_angle = 15
 
 building_layer_name = "CraneUI"; 
 
@@ -17,20 +18,20 @@ function reach_building() {
 
 // Purchase dart gun
 function do_option1() {
-	if (obj_game_manager.cents < dart_gun_cost or !train_has_empty_car()) {
+	if (obj_game_manager.pennies < dart_gun_cost or !train_has_empty_car()) {
 		return;
 	}
-	obj_game_manager.cents -= dart_gun_cost;
+	obj_game_manager.pennies -= dart_gun_cost;
 	dart_gun_cost += dart_gun_cost_increment;
 	obj_train.add_weapon_to_next_car(obj_turret_basic);
 }
 
 // Upgrade dart gun
 function do_option2() {
-	if (obj_game_manager.cents < dart_gun_upgrade_cost) {
+	if (obj_game_manager.pennies < dart_gun_upgrade_cost) {
 		return;
 	}
-	obj_game_manager.cents -= dart_gun_upgrade_cost;
+	obj_game_manager.pennies -= dart_gun_upgrade_cost;
 	dart_gun_upgrade_cost += dart_gun_upgrade_cost_increment;
 	add_turret_damage_range(obj_turret_basic, dart_gun_damage_increment, dart_gun_range_increment)
 	
