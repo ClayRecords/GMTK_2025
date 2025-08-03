@@ -8,5 +8,6 @@ if (path_speed>0) {
 	{
 		layer_create(0,"Effects");
 	}
-	alarm[0] = beat;
+	
 }
+alarm[0] = beat;
