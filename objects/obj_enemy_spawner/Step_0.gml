@@ -1,6 +1,6 @@
 /// @description Handle debug mouse clicks, end of wave
 
-if (obj_game_manager.debug) {
+if (global.debug) {
 	if (mouse_check_button_pressed(mb_left)) {
 		start_next_wave();
 	}
