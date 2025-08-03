@@ -6,5 +6,4 @@ if (move_progress < move_target) {
 
 if (disappearing) {
 	image_alpha -= 1 / 60;
-	sprite_set_alpha_from_sprite(sprite, sprite_duplicate(sprite_index));
 }
