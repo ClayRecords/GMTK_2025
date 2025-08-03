@@ -1,1 +1,0 @@
-self.max_health = 5;

@@ -1,5 +1,3 @@
-self.max_health = 100;
-self.current_health = self.max_health;
 building_layer_name = "ToyBoxUI";
 
 function toggle_interact_menu() {
