@@ -42,6 +42,7 @@
               ],"flexDirection":0,"height":{"unit":3,"value":96.0,},"justifyContent":1,"name":"TextBackground","nodeColour":4282934770,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":96.0,},},
           ],"flexDirection":0,"height":{"unit":3,"value":48.0,},"justifyContent":1,"name":"Back","nodeColour":4282970712,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":48.0,},},
       ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"AboutPage","nodeColour":4288082504,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+    {"$GMRUILayer":"v1","%Name":"NotificationsUI","alignItems":2,"children":[],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"NotificationsUI","nodeColour":4294108232,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
     {"$GMRUILayer":"v1","%Name":"MainMenu","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"MainMenuOptions","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"Play","alignItems":2,"children":[
