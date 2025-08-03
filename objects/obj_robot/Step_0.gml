@@ -17,5 +17,6 @@ if (charging_fire) {
 if (speed != 0) {
 	if (life_count % (global.one_second * 0.5) == 0) {
 		image_yscale = image_yscale * -1;
+		obj_sound_manager.play_random_from_folder("clank", 0.1);
 	}
 }

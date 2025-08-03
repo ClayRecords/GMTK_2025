@@ -6,5 +6,4 @@ life_count = 0;
 rotation = 0;
 rotation_rate = global.one_second * 0.25;
 
-//image_xscale = 0.5;
-//image_yscale = 0.5;
+sound = obj_sound_manager.play_random_from_folder("laserair", 0.4);

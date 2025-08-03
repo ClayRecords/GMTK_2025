@@ -72,6 +72,7 @@
     {"name":"snd_grunt1","order":2,"path":"sounds/snd_grunt1/snd_grunt1.yy",},
     {"name":"snd_grunt2","order":1,"path":"sounds/snd_grunt2/snd_grunt2.yy",},
     {"name":"snd_grunt4","order":3,"path":"sounds/snd_grunt4/snd_grunt4.yy",},
+    {"name":"snd_laserair","order":15,"path":"sounds/snd_laserair/snd_laserair.yy",},
     {"name":"snd_laserwindup","order":14,"path":"sounds/snd_laserwindup/snd_laserwindup.yy",},
     {"name":"snd_pew2","order":1,"path":"sounds/snd_pew2/snd_pew2.yy",},
     {"name":"snd_pew3","order":2,"path":"sounds/snd_pew3/snd_pew3.yy",},
