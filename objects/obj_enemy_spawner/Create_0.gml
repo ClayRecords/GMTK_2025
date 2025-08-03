@@ -18,7 +18,7 @@ time_between_sub_waves = global.one_second * 5;
 sub_wave_spawn_rate = global.one_second;
 
 function kickoff() {
-	alarm[0] = time_between_waves;
+	alarm[0] = time_between_waves * 2;
 }
 
 function start_next_wave() {

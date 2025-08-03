@@ -7,7 +7,6 @@ draw_set_halign(fa_center);
 
 if (self.wave_index >= 0 && self.active_wave != noone) {
 	draw_text(wave_counter_pos_x, wave_counter_pos_y, "Wave " + str(self.wave_index + 1));
-	//draw_text(wave_counter_pos_x, wave_counter_pos_y + 20, "Remaining enemies: " + str(active_wave_enemies));
 } else {
 	draw_text(wave_counter_pos_x, wave_counter_pos_y, "Enemies incoming!");
 	var time_left = alarm[0] / global.one_second;

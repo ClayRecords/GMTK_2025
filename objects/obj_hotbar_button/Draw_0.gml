@@ -12,7 +12,7 @@ draw_text_transformed(
 	x + sprite_width / 2 - 8,
 	y + sprite_height / 2,
 	str(quantity),
-	2,
-	2,
+	1,
+	1,
 	0
 );
