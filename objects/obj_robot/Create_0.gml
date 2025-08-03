@@ -12,9 +12,10 @@ charge_fire_count = 0;
 charge_fire_rotation = 0;
 charge_file_rotation_rate = global.one_second * 0.25;
 life_count = 0;
+current_speed = move_speed;
 
 bullet_speed = 4;
-bullet_damage = 5;
-collision_damage = 10;
+bullet_damage = 4;
+collision_damage = 3;
 
 alarm[0] = walk_interval;
