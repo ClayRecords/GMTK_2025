@@ -1,3 +1,6 @@
+// Angle the pig
+image_angle = 85;
+
 // Inherit the parent event
 event_inherited();
 building_layer_name = "BankUI"; 

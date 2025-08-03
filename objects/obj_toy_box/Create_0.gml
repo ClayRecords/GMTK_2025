@@ -1,5 +1,4 @@
-self.max_health = 100;
-self.current_health = self.max_health;
+image_angle = 190;
 building_layer_name = "ToyBoxUI";
 
 random_toy_cost = 1;

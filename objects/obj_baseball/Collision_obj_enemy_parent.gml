@@ -1,1 +1,3 @@
-other.current_health = 0;
+if (is_active) {
+	other.current_health -= damage;
+}
