@@ -1,1 +1,0 @@
-should_stop = !should_stop;
