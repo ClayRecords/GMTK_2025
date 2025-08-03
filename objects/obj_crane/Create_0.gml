@@ -12,6 +12,9 @@ dart_gun_upgrade_cost_increment = 5;
 dart_gun_damage_increment = 10;
 dart_gun_range_increment = 10;
 
+stopsign.x -= 35;
+stopsign.y -= 55;
+
 function reach_building() {
 	obj_tutorial_manager.resolve_step("stop_at_crane");
 }
