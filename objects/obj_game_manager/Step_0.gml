@@ -1,0 +1,1 @@
+update_currency_ui()
