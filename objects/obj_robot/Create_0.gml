@@ -4,7 +4,7 @@ event_inherited();
 image_xscale = global.model_scale;
 image_yscale = global.model_scale;
 
-walk_interval = global.one_second * 3;
+walk_interval = global.one_second * 4;
 pause_interval = global.one_second * 4;
 fire_interval = global.one_second * 3;
 charging_fire = false;

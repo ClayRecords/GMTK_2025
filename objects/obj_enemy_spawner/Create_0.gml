@@ -1,7 +1,7 @@
 all_waves = [
-	[{"s": 2, "k": 1}, {"s": 5, "k": 3, "r": 1}],
-	[{"s": 7, "k": 2, "r": 1}, {"s": 12, "k": 5, "r": 2}, {"r": 3}],
-	[{"s": 20}],
+	[{"s": 1, "k": 1}, {"s": 1, "k": 1, "r": 1}],
+	[{"s": 2, "k": 2, "r": 1}, {"s": 3, "k": 2, "r": 1}, {"r": 2}],
+	[{"k": 1}, {"s": 7}, {"k": 1}, {"k": 1}, {"k": 1}, {"r": 2}],
 	[{"s": 20}]
 ];
 
@@ -13,8 +13,8 @@ wave_is_spawning = false;
 sub_wave_is_spawning = false;
 
 // Timings
-time_between_waves = global.one_second * 10;
-time_between_sub_waves = global.one_second * 5;
+time_between_waves = global.one_second * 15;
+time_between_sub_waves = global.one_second * 8;
 sub_wave_spawn_rate = global.one_second;
 
 // Display
