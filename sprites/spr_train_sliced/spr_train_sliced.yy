@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_train_sliced",
   "bboxMode":0,
   "bbox_bottom":18,
