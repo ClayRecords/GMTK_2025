@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_clickbox",
-    "path":"sprites/spr_clickbox/spr_clickbox.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }

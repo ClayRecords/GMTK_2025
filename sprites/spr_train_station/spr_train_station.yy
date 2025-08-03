@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"spr_train_station",
-  "bboxMode":0,
-  "bbox_bottom":39,
+  "bboxMode":2,
+  "bbox_bottom":63,
   "bbox_left":0,
   "bbox_right":72,
   "bbox_top":0,

@@ -1,4 +1,9 @@
-//draw_stacked_sprite(self)
+
+if (should_stop) {
+	image_index = 0;
+} else {
+	image_index = 1;
+}
 
 var i = 0;
 var total_stop_images = sprite_get_number(spr_stop)
