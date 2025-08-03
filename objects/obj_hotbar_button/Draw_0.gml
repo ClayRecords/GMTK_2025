@@ -1,6 +1,7 @@
 event_inherited()
 
 if (!quantity) {
+	window_set_cursor(cr_default);
 	image_blend = c_gray;	
 }
 
