@@ -1,4 +1,5 @@
 /// @description Sounds map, soundtrack
+
 main_menu_soundtrack = noone;
 game_soundtrack = noone;
 audio_system_available = false;

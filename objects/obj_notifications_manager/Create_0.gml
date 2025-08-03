@@ -1,7 +1,7 @@
 notification_height = 100;
-notification_width = display_get_width();
+notification_width = 400;
 
-function show(sprite, text, duration=2) {
+function show(sprite, text) {
 	print(notification_height)
 	
 	var min_y = 0;
@@ -15,8 +15,7 @@ function show(sprite, text, duration=2) {
 		obj_notification,
 		{
 			sprite: sprite_duplicate(sprite),
-			text: text,
-			duration: duration
+			text: text
 		}
 	)
 	set_obj_sprite_size(notification, notification_width, notification_height);

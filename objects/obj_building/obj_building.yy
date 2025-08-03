@@ -13,10 +13,7 @@
     "name":"buildings",
     "path":"folders/Objects/buildings.yy",
   },
-  "parentObjectId":{
-    "name":"obj_clickable",
-    "path":"objects/obj_clickable/obj_clickable.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

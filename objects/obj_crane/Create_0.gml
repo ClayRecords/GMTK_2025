@@ -13,7 +13,7 @@ dart_gun_damage_increment = 10;
 dart_gun_range_increment = 10;
 
 function reach_building() {
-	obj_tutorial_manager.resolve_step("stop_at_crane");
+	return;
 }
 
 // Purchase dart gun

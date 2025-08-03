@@ -135,7 +135,6 @@ smoke_spawn_x = 0;
 smoke_spawn_y = 0;
 beat = 60*60/120;
 alarm[0] = beat;
-direction = 180;
 
 function get_train_speed() {
 	train_speed = train_base_speed * power(gear_speed_modifier, current_gear)

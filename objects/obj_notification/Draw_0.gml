@@ -13,10 +13,9 @@ draw_sprite_ext(
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_alpha(image_alpha);
-draw_text_transformed(
-	x + padding * 2 + sprite_get_width(sprite),
-	y + padding * 2.5,
-	text,
-	0.75, 0.75, 0
+draw_text(
+	x + padding + sprite_get_width(sprite),
+	y + padding * 2,
+	text
 )
 draw_set_alpha(1);

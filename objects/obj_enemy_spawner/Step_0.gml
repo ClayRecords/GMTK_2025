@@ -1,8 +1,14 @@
 /// @description Handle debug mouse clicks, end of wave
 
-if (global.debug) {
+if (obj_game_manager.debug) {
 	if (mouse_check_button_pressed(mb_left)) {
-		instance_create_layer(mouse_x, mouse_y, "Instances", obj_soldier)
+		start_next_wave();
+	}
+
+	if (mouse_check_button_pressed(mb_right)) {
+	    var xx = mouse_x;
+	    var yy = mouse_y;
+		instance_create_layer(xx, yy, "Instances", obj_robot);
 	}
 }
 
