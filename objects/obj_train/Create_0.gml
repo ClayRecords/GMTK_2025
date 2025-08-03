@@ -29,7 +29,10 @@ circle_radius = 175;
 num_of_segments = 40; //higher number, smoother the path
 length_of_straightaway = 350;
 
-should_move = true;
+// Stop at start for tutorial
+should_move = false;
+// Set direction onto track
+image_angle = 90;
 
 // First straightaway
 path_add_point(train_path,starting_x,starting_y, 50);

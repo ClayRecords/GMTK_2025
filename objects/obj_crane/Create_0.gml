@@ -9,8 +9,8 @@ dart_gun_cost = 5;
 dart_gun_upgrade_cost = 30;
 dart_gun_cost_increment = 5;
 dart_gun_upgrade_cost_increment = 5;
-dart_gun_damage_increment = 10;
-dart_gun_range_increment = 10;
+dart_gun_damage_increment = 5;
+dart_gun_range_increment = 50;
 
 stopsign.x -= 35;
 stopsign.y -= 55;
@@ -67,7 +67,7 @@ function add_turret_damage_range(turret_type, damage_increment, range_increment)
 	for (var i = 0; i < instance_number(obj_turret_basic); i++) {
 		var turret = instance_find(turret_type, i);
 		turret.bullet_damage += damage_increment;
-		// Add range support
+		turret.fire_range += range_increment;
 	}
 }
 
@@ -92,7 +92,7 @@ function set_text() {
 		car_available_str = "NO EMPTY CAR!\n";
 	}
 	
-	option1_description = car_available_str + "Damage: " + (str(obj_turret_basic.bullet_damage)) + "\nRange: RANGE HERE";
+	option1_description = car_available_str + "Damage: " + str(obj_turret_basic.bullet_damage) + "\nRange: " + (str(obj_turret_basic.fire_range));
 	option2_description = "Cost: " + str(dart_gun_upgrade_cost);
 	option3_description = "";
 	option4_description = "";

@@ -1,7 +1,5 @@
 event_inherited();
 
-obj_train.should_move = false;
-
 step_names = [
 	"welcome",
 	"stop_at_bank",
@@ -74,7 +72,13 @@ function end_tutorial() {
 	step_index = array_length(step_text) - 1;
 	obj_train.should_move = true;
 	obj_game_manager.kickoff();
+	
+	// Clear notifications
+	with(obj_notification) {
+		instance_destroy(self);
+	}
 }
 
-next_step()
-next_step()
+// Do first 2 notifications
+next_step();
+next_step();
