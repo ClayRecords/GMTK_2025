@@ -1,3 +1,5 @@
+event_inherited();
+
 obj_train.should_move = false;
 
 step_names = [
@@ -61,7 +63,7 @@ function is_active() {
 	return step_index < array_length(step_text) - 1;
 }
 
-function close_menu_active() {
+function is_menu_close_active() {
 	var valid_close_steps = [
 		"bank_info", "station_info", "crane_info"
 	];
