@@ -3,6 +3,7 @@ building_layer_name = "ToyBoxUI";
 
 random_toy_cost = 1;
 heal_cost = 2;
+win_cost = 100;
 
 possible_toys = ["Baseball", "MouseTrap", "Block"]
 heal_amount = max_health;
@@ -15,8 +16,9 @@ function toggle_interact_menu() {
 }
 function open_toy_box_UI() {
 	prepare_toybox();
+	obj_building_manager.current_building = self;
 	toggle_interact_menu();
-	obj_building_manager.current_building = self;	
+
 }
 function leave_building() {
 	print("Left building");
@@ -50,9 +52,13 @@ function do_option2() {
 	current_health += heal_amount;
 }
 
-// 
+// Win
 function do_option3() {
-	return;
+	if (obj_game_manager.imagination < win_cost) {
+		return;
+	}
+	obj_game_manager.imagination -= win_cost;
+	obj_game_manager.end_game(true);
 }
 
 function pick_random_valid_toy(possible_toys) {
@@ -83,6 +89,6 @@ function prepare_toybox() {
 function set_text() {
 	option1_description = "Pick a random toy from the toy box!\nCosts " + str(random_toy_cost) + " Imagination";
 	option2_description = "Heal your toy box!\nCosts " + str(heal_cost) + " Imagination";
-	option3_description = "3";
+	option3_description = "Use " + str(win_cost) + " Imagination to win!";
 	option_descriptions = [option1_description, option2_description, option3_description];
 	}

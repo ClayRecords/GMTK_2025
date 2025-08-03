@@ -46,6 +46,10 @@
     {"name":"inst_633E6E4E","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_4D347563","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_13B50BF2","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_141C2815","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_63EE1435","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_28EB9FAA","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_5218960B","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

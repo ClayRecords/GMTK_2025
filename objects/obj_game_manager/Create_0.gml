@@ -16,3 +16,30 @@ layer_set_visible("HotbarUI", true);
 layer_set_visible("PauseButton", true);
 layer_set_visible("SpeedControlUI", true);
 layer_set_visible("NotificationsUI", true);
+
+function end_game(win_bool) {
+		
+	// Clear notifications
+	with(obj_notification) {
+		instance_destroy(self);
+	}
+		
+	layer_set_visible("NotificationsUI", false);
+	layer_set_visible("HotbarUI", false);
+	layer_set_visible("PauseUI", false);
+	layer_set_visible("PauseButton", false);
+	layer_set_visible("SpeedControlUI", false);
+	layer_set_visible("HelpPage", false);
+	layer_set_visible("AboutPage", false);
+	
+	room_goto(EndRoom)
+	layer_set_visible("MainMenuBackground", true);
+
+	if (win_bool) {
+		layer_set_visible("WinPage", true);
+
+	}
+	else if (!win_bool) {
+		layer_set_visible("LosePage", true);
+	}
+}

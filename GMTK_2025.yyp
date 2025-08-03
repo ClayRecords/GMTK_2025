@@ -58,7 +58,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.0.849",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"GMTK_2025",
   "resources":[
@@ -114,6 +114,7 @@
     {"id":{"name":"obj_upgrade_button","path":"objects/obj_upgrade_button/obj_upgrade_button.yy",},},
     {"id":{"name":"Caleb_Room","path":"rooms/Caleb_Room/Caleb_Room.yy",},},
     {"id":{"name":"Clay_Room","path":"rooms/Clay_Room/Clay_Room.yy",},},
+    {"id":{"name":"EndRoom","path":"rooms/EndRoom/EndRoom.yy",},},
     {"id":{"name":"Josiah_Room","path":"rooms/Josiah_Room/Josiah_Room.yy",},},
     {"id":{"name":"Molly_Art_Studio","path":"rooms/Molly_Art_Studio/Molly_Art_Studio.yy",},},
     {"id":{"name":"Room_TrainTrack","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},},
@@ -173,6 +174,7 @@
     {"id":{"name":"spr_crane","path":"sprites/spr_crane/spr_crane.yy",},},
     {"id":{"name":"spr_go","path":"sprites/spr_go/spr_go.yy",},},
     {"id":{"name":"spr_hitbox","path":"sprites/spr_hitbox/spr_hitbox.yy",},},
+    {"id":{"name":"spr_lose","path":"sprites/spr_lose/spr_lose.yy",},},
     {"id":{"name":"spr_main_menu_background","path":"sprites/spr_main_menu_background/spr_main_menu_background.yy",},},
     {"id":{"name":"spr_main_menu_button","path":"sprites/spr_main_menu_button/spr_main_menu_button.yy",},},
     {"id":{"name":"spr_main_menu_selection_button","path":"sprites/spr_main_menu_selection_button/spr_main_menu_selection_button.yy",},},
@@ -210,6 +212,7 @@
     {"id":{"name":"spr_ui_icon3","path":"sprites/spr_ui_icon3/spr_ui_icon3.yy",},},
     {"id":{"name":"spr_ui_pause","path":"sprites/spr_ui_pause/spr_ui_pause.yy",},},
     {"id":{"name":"spr_ui_upgrade_button","path":"sprites/spr_ui_upgrade_button/spr_ui_upgrade_button.yy",},},
+    {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -220,6 +223,7 @@
     {"roomId":{"name":"Josiah_Room","path":"rooms/Josiah_Room/Josiah_Room.yy",},},
     {"roomId":{"name":"Caleb_Room","path":"rooms/Caleb_Room/Caleb_Room.yy",},},
     {"roomId":{"name":"Molly_Art_Studio","path":"rooms/Molly_Art_Studio/Molly_Art_Studio.yy",},},
+    {"roomId":{"name":"EndRoom","path":"rooms/EndRoom/EndRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
