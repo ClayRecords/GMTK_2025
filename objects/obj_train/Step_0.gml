@@ -22,7 +22,7 @@ prev_y = y;
 var offset_distance = 30;
 smoke_spawn_x = obj_train.x + lengthdir_x(offset_distance, obj_train.direction);
 smoke_spawn_y = obj_train.y + lengthdir_y(offset_distance, obj_train.direction) - 30;
-if(obj_game_manager.debug){
+if(global.debug){
 	draw_text(smoke_spawn_x, smoke_spawn_y, "o");
 }
 

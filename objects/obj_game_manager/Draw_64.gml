@@ -1,19 +1,15 @@
-/// @description Draw pennies
-draw_set_font(fnt_ui);
-draw_set_colour(c_blue);
+/// @description Draw inventory, debug stats
+
+draw_set_font(global.default_font);
+draw_set_colour(global.default_text_color);
 draw_set_halign(fa_left);
 
 draw_text(x + 30, y + 25, "Pennies:  " + str(pennies) + "©");
 draw_text(x + 30, y + 55, "Imagination: " + str(imagination));
 
-
-if (debug) {
-	//draw_sprite(spr_ui_back,1,x + 20,y+5);
+if (global.debug) {
 	draw_text(x + 30, y + 100, "Debug mode");
-	draw_text(x + 30, y + 150, "x: " + string(obj_train.x));
-	draw_text(x + 30, y + 200, "y: "+ string(obj_train.y));
-	draw_text(x + 30, y + 250, "Speed: "+ string(obj_train.path_speed));
-
-	
-
+	draw_text(x + 30, y + 150, "Train x: " + string(obj_train.x));
+	draw_text(x + 30, y + 200, "Train y: "+ string(obj_train.y));
+	draw_text(x + 30, y + 250, "Train Speed: "+ string(obj_train.path_speed));
 }

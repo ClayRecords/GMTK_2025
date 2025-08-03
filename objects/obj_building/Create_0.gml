@@ -37,5 +37,9 @@ function leave_building() {
 	obj_train.should_move = true;
 	obj_train.train_speed = 5;
 
+	if (obj_tutorial_manager.is_active()) {
+		obj_train.should_move = false;
+		obj_tutorial_manager.next_step();
+	}
 }
 
