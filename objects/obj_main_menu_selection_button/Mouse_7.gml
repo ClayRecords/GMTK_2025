@@ -1,6 +1,8 @@
 // Play
 if (option_num == 1) {
 	layer_set_visible("MainMenu", false);
+	layer_set_visible("WinPage", false);
+	layer_set_visible("LosePage", false);
 	layer_set_visible("MainMenuBackground", false);
 	room_goto(Room_TrainTrack);
 }

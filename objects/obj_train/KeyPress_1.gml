@@ -1,6 +1,6 @@
 /// @description Debug add cars, turrets
 
-if (obj_game_manager.debug) {
+if (global.debug) {
 	if (keyboard_check_pressed(187)) {
 		// Press '=' to add train_cars
 		add_car();

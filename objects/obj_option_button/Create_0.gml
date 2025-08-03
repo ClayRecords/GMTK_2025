@@ -1,3 +1,5 @@
+event_inherited();
+
 function update_description(option_num, new_description) {
     var current_building = obj_building_manager.current_building;
 	if (not current_building) {
