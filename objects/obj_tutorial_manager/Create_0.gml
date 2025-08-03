@@ -82,4 +82,3 @@ function end_tutorial() {
 }
 
 next_step()
-next_step()
