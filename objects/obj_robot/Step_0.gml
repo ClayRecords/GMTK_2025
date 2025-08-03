@@ -1,10 +1,10 @@
 /// @description Charge up, fire
 if (global.pause) {
 	speed = 0;
+	if (alarm[0] != 0) { alarm[0] = alarm[0] + 1}
 	return;	
-}
-else {
-	speed = move_speed
+} else {
+	speed = current_speed
 }
 
 life_count++;
@@ -22,7 +22,7 @@ if (charging_fire) {
 }
 
 // Take a step
-if (speed != 0) {
+if (current_speed != 0) {
 	if (life_count % (global.one_second * 0.5) == 0) {
 		image_yscale = image_yscale * -1;
 		obj_sound_manager.play_random_from_folder("clank", 0.1);
