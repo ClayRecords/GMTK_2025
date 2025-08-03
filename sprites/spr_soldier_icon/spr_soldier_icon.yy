@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_soldier_icon",
   "bboxMode":0,
   "bbox_bottom":66,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"76f61666-b87a-4ac8-9922-dedb0f0978be","name":"76f61666-b87a-4ac8-9922-dedb0f0978be","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"76f61666-b87a-4ac8-9922-dedb0f0978be","name":"76f61666-b87a-4ac8-9922-dedb0f0978be","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,17 +1,15 @@
 {
-  "$GMSound":"v2",
+  "$GMSound":"",
   "%Name":"snd_choochoo3",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "bitRate":128,
   "compression":0,
-  "compressionQuality":4,
   "conversionMode":0,
   "duration":0.9665306,
-  "exportDir":"",
   "name":"snd_choochoo3",
   "parent":{
     "name":"choochoo",
@@ -22,5 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_choochoo3.mp3",
+  "type":0,
   "volume":1.0,
 }
