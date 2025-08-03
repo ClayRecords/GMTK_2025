@@ -3,6 +3,7 @@ image_angle = 85;
 
 // Inherit the parent event
 event_inherited();
+
 building_layer_name = "BankUI"; 
 pennies_ready = 0;
 pennies_per_loop = 100;

@@ -101,6 +101,7 @@
     {"name":"spr_train_car_sliced","order":1,"path":"sprites/spr_train_car_sliced/spr_train_car_sliced.yy",},
     {"name":"spr_train_engine_wheel_1","order":3,"path":"sprites/spr_train_engine_wheel_1/spr_train_engine_wheel_1.yy",},
     {"name":"spr_train_engine_wheel_2","order":2,"path":"sprites/spr_train_engine_wheel_2/spr_train_engine_wheel_2.yy",},
+    {"name":"spr_train_station","order":7,"path":"sprites/spr_train_station/spr_train_station.yy",},
     {"name":"spr_train_upgrader","order":2,"path":"sprites/spr_train_upgrader/spr_train_upgrader.yy",},
     {"name":"spr_turret","order":1,"path":"sprites/spr_turret/spr_turret.yy",},
     {"name":"spr_ui_back","order":3,"path":"sprites/spr_ui_back/spr_ui_back.yy",},

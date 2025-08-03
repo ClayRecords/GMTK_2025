@@ -9,7 +9,6 @@ stopsign.image_yscale = 2
 function pass_or_enter_building() {
 	just_passed_or_entered = true
 	reach_building();
-	print("stop sign should stop:", stopsign.should_stop)
 	if (stopsign.should_stop) {
 		print("Stopped at building");
 		obj_train.train_speed = 0;
