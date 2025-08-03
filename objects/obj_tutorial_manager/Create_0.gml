@@ -10,6 +10,7 @@ step_names = [
 	"station_info",
 	"stop_at_crane",
 	"buy_turret",
+	"crane_info",
 	"open_toy_box",
 	"get_item",
 	"kill_enemies",
@@ -21,12 +22,13 @@ step_text = [
 	"Welcome to Chugga Chugga Loop Loop!",
 	"Click on the Piggy Bank to schedule a stop there.",
 	"Get some Pennies!",
-	"Upgrade the Piggy Bank with the other options later.",
+	"You can upgrade the Piggy Bank more later. Close the menu to continue.",
 	"Click on the Train Station to schedule a stop there.",
 	"Buy a new car for your train!",
-	"Upgrade your speed later. Gear up and down with arrow keys!",
+	"You can upgrade the Train Station more later. Close the menu to continue.",
 	"Click on the Crane to schedule a stop there.",
 	"Buy a Dart Gun for your new train car!",
+	"You can upgrade the Crane more later. Close the menu to continue.",
 	"Click on the Toy Box in the center of the loop.",
 	"Use your Imagination to Pick a Random Toy!",
 	"Defeat enemies to gain more Imagination.",
@@ -57,6 +59,13 @@ function next_step() {
 
 function is_active() {
 	return step_index < array_length(step_text) - 1;
+}
+
+function close_menu_active() {
+	var valid_close_steps = [
+		"bank_info", "station_info", "crane_info"
+	];
+	return array_contains(valid_close_steps, step_names[step_index]);
 }
 
 function end_tutorial() {
