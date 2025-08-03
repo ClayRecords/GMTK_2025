@@ -25,22 +25,17 @@ function end_game(win_bool) {
 		instance_destroy(self);
 	}
 		
-	layer_set_visible("NotificationsUI", false);
-	layer_set_visible("HotbarUI", false);
-	layer_set_visible("WaveTrackerUI", false);
-	layer_set_visible("CurrencyUI", false);
-	layer_set_visible("PauseUI", false);
-	layer_set_visible("PauseButton", false);
-	layer_set_visible("SpeedControlUI", false);
-	layer_set_visible("HelpPage", false);
-	layer_set_visible("AboutPage", false);
+	// Set all layers not visible
+	var all_layers = layer_get_all();
+	for (var i = 1; i < array_length(all_layers); i++) {
+		layer_set_visible(all_layers[i], false);
+	}
 	
 	room_goto(EndRoom)
 	layer_set_visible("MainMenuBackground", true);
 
 	if (win_bool) {
 		layer_set_visible("WinPage", true);
-
 	}
 	else if (!win_bool) {
 		layer_set_visible("LosePage", true);
