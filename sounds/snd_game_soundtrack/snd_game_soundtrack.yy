@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":111.84467,
+  "duration":111.85632,
   "name":"snd_game_soundtrack",
   "parent":{
     "name":"Sounds",
