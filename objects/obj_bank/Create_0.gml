@@ -11,8 +11,8 @@ pennies_per_loop = 100;
 investment_account = 0;
 investment_rate = 0.03;
 
-cost_to_upgrade = 60;
-cost_increment = 30;
+cost_to_upgrade = 1;
+cost_increment = 1;
 pennies_upgrade_increment = 10;
 investment_rate_upgrade_increment = 0.01;
 
@@ -47,10 +47,10 @@ function do_option4() {
 }
 // Upgrade
 function do_option3() {
-	if (obj_game_manager.pennies < cost_to_upgrade) {
+	if (obj_game_manager.imagination < cost_to_upgrade) {
 		return;	
 	}
-	obj_game_manager.pennies -= cost_increment
+	obj_game_manager.imagination -= cost_increment
 	cost_to_upgrade += cost_increment
 	pennies_per_loop += pennies_upgrade_increment;
 	investment_rate += investment_rate_upgrade_increment;
@@ -59,6 +59,6 @@ function do_option3() {
 function set_text() {
 	option1_description = "Collect " + str(pennies_ready) + "!\nCurrently collecting " + str(pennies_per_loop) + " pennies / Loop. Stop at the bank to collect."
 	option2_description = "Invest " + str(pennies_per_loop) + " ©, at a rate of " + str(investment_rate) + "\nCurrent Assets: " + str(investment_account) + "\nAssets accumulate interest over time.";
-	option3_description = "Upgrade pennies / Loop & Rate for: " + str(cost_to_upgrade) + "\nNext Level:\n    © / Loop: " + str(pennies_per_loop + pennies_upgrade_increment) + "\n    Rate: " + str(investment_rate + investment_rate_upgrade_increment)
+	option3_description = "Upgrade pennies / Loop & Rate for: " + str(cost_to_upgrade) + " Imagination" + "\nNext Level:\n    © / Loop: " + str(pennies_per_loop + pennies_upgrade_increment) + " Rate: " + str(investment_rate + investment_rate_upgrade_increment)
 	option_descriptions = [option1_description, option2_description, option3_description];
 }
