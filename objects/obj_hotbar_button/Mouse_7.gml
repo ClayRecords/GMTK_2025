@@ -3,8 +3,6 @@ if(quantity <= 0){
 	exit;
 }
 
-print("Create trap", trap_name);
-
 var px = mouse_x;
 var py = mouse_y;
 var equipment_object = noone;

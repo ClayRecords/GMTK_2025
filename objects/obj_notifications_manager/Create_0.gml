@@ -2,8 +2,6 @@ notification_height = 100;
 notification_width = display_get_width();
 
 function show(sprite, text, duration=2) {
-	print(notification_height)
-	
 	var min_y = 0;
 	with (obj_notification) {
 		min_y = min(y, min_y);

@@ -9,7 +9,6 @@ if (is_active) {
 	var out_vertically = ((y + sprite_height) < 0) || ((y - sprite_height) > room_height);
 
 	if (out_horizontally || out_vertically) {
-		print("killed baseball");
 		instance_destroy(self);
 	}
 }
