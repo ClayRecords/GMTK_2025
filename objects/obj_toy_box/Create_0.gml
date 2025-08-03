@@ -2,7 +2,7 @@ image_angle = 190;
 building_layer_name = "ToyBoxUI";
 
 random_toy_cost = 1;
-heal_cost = 2;
+heal_cost = 3;
 win_cost = 100;
 
 possible_toys = ["Baseball", "MouseTrap", "Block"]
