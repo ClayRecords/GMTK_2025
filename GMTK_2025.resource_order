@@ -58,7 +58,9 @@
     {"name":"obj_train_car","order":9,"path":"objects/obj_train_car/obj_train_car.yy",},
     {"name":"obj_train_smoke","order":14,"path":"objects/obj_train_smoke/obj_train_smoke.yy",},
     {"name":"obj_turret_parent","order":1,"path":"objects/obj_turret_parent/obj_turret_parent.yy",},
+    {"name":"obj_turret_water","order":3,"path":"objects/obj_turret_water/obj_turret_water.yy",},
     {"name":"obj_upgrade_button","order":6,"path":"objects/obj_upgrade_button/obj_upgrade_button.yy",},
+    {"name":"obj_water_bullet","order":4,"path":"objects/obj_water_bullet/obj_water_bullet.yy",},
     {"name":"Caleb_Room","order":4,"path":"rooms/Caleb_Room/Caleb_Room.yy",},
     {"name":"EndRoom","order":6,"path":"rooms/EndRoom/EndRoom.yy",},
     {"name":"Josiah_Room","order":3,"path":"rooms/Josiah_Room/Josiah_Room.yy",},
@@ -130,5 +132,6 @@
     {"name":"spr_ui_pause","order":9,"path":"sprites/spr_ui_pause/spr_ui_pause.yy",},
     {"name":"spr_ui_upgrade_button","order":8,"path":"sprites/spr_ui_upgrade_button/spr_ui_upgrade_button.yy",},
     {"name":"spr_win","order":13,"path":"sprites/spr_win/spr_win.yy",},
+    {"name":"Sprite53","order":1,"path":"sprites/Sprite53/Sprite53.yy",},
   ],
 }

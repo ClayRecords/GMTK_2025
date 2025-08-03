@@ -8,7 +8,7 @@ if (global.debug) {
 
 	if (keyboard_check_pressed(189)){
 		// Press '-' to add turret
-		add_weapon_to_next_car(obj_turret_basic);
+		add_weapon_to_next_car(obj_turret_water);
 	}
 	
 
