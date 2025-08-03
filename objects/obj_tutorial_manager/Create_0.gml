@@ -61,6 +61,13 @@ function is_active() {
 	return step_index < array_length(step_text) - 1;
 }
 
+function close_menu_active() {
+	var valid_close_steps = [
+		"bank_info", "station_info", "crane_info"
+	];
+	return array_contains(valid_close_steps, step_names[step_index]);
+}
+
 function end_tutorial() {
 	step_index = array_length(step_text) - 1;
 	obj_train.should_move = true;
