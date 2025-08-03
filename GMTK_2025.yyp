@@ -58,7 +58,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.0.849",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"GMTK_2025",
   "resources":[
@@ -74,6 +74,7 @@
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_carpet","path":"objects/obj_carpet/obj_carpet.yy",},},
+    {"id":{"name":"obj_clickable","path":"objects/obj_clickable/obj_clickable.yy",},},
     {"id":{"name":"obj_clickbox","path":"objects/obj_clickbox/obj_clickbox.yy",},},
     {"id":{"name":"obj_crane","path":"objects/obj_crane/obj_crane.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},

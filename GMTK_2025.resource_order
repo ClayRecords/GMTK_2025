@@ -31,6 +31,7 @@
     {"name":"obj_building_menu_close","order":4,"path":"objects/obj_building_menu_close/obj_building_menu_close.yy",},
     {"name":"obj_bullet","order":2,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"obj_carpet","order":12,"path":"objects/obj_carpet/obj_carpet.yy",},
+    {"name":"obj_clickable","order":16,"path":"objects/obj_clickable/obj_clickable.yy",},
     {"name":"obj_clickbox","order":6,"path":"objects/obj_clickbox/obj_clickbox.yy",},
     {"name":"obj_crane","order":2,"path":"objects/obj_crane/obj_crane.yy",},
     {"name":"obj_enemy_parent","order":1,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
