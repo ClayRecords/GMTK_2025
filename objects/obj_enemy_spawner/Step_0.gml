@@ -1,4 +1,10 @@
 /// @description Handle debug mouse clicks, end of wave
+if (global.pause) {
+	alarm[0] = alarm[0] + 1;
+	alarm[1] = alarm[1] + 1;
+	alarm[2] = alarm[2] + 1;
+	return;	
+}
 
 if (global.debug) {
 	if (mouse_check_button_pressed(mb_left)) {

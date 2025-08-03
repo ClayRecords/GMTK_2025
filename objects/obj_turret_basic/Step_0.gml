@@ -1,4 +1,7 @@
 /// @description Fire!
+if (global.pause) {
+	return;	
+}
 
 if (target != noone) {
 	// Aim slightly ahead

@@ -1,4 +1,12 @@
 /// @description Charge up, fire
+if (global.pause) {
+	speed = 0;
+	return;	
+}
+else {
+	speed = move_speed
+}
+
 life_count++;
 
 if (charging_fire) {
