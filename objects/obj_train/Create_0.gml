@@ -138,3 +138,6 @@ function decrease_train_speed() {
 	var new_train_speed = min(train_speed + 1, max_train_speed);
 	train_speed = new_train_speed;
 }
+
+
+//train_sound = audio_play_sound(snd_, 1, true, 0.25, 4.5);
