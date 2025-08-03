@@ -4,9 +4,9 @@ image_angle = 180;
 self.image_xscale = 1.75
 self.image_yscale = 1.75
 building_layer_name = "TrainUpgradeUI"; 
-option1_cost = 10;
+option1_cost = 200;
 option2_cost = 20;
-option3_cost = 15;
+option3_cost = 25;
 
 
 function reach_building(){
@@ -32,7 +32,7 @@ function do_option2() {
 		return;	
 	}
 	obj_game_manager.pennies -= option2_cost;
-	option2_cost += 30;
+	option2_cost += 50;
 	obj_train.train_ramming_damage++;
 }
 // Number of cars

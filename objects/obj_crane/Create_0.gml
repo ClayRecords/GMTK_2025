@@ -5,10 +5,10 @@ image_angle = -45
 building_layer_name = "CraneUI"; 
 
 
-dart_gun_cost = 5;
-dart_gun_upgrade_cost = 30;
-dart_gun_cost_increment = 5;
-dart_gun_upgrade_cost_increment = 5;
+dart_gun_cost = 75;
+dart_gun_upgrade_cost = 40;
+dart_gun_cost_increment = 30;
+dart_gun_upgrade_cost_increment = 10;
 dart_gun_damage_increment = 5;
 dart_gun_range_increment = 50;
 
@@ -100,5 +100,5 @@ function set_text() {
 	option6_description = "";
 	
 	
-	option_descriptions = [option1_description, option2_description, option3_description, option4_description, option5_description, option6_description];
+	option_descriptions = [option1_description, option2_description];
 }
