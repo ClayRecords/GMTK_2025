@@ -12,4 +12,5 @@ if (speed = 0) {
 	charge_fire_count = 0;
 	sprite_index = spr_robot;
 	alarm[0] = pause_interval;
+	obj_sound_manager.play_random_from_folder("laserwindup", 0.15);
 }

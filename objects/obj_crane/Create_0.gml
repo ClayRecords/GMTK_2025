@@ -1,5 +1,6 @@
 // Inherit the parent event
 event_inherited();
+image_angle = 15
 
 building_layer_name = "CraneUI"; 
 

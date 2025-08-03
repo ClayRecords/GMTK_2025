@@ -4,7 +4,6 @@ var i = 0;
 var total_stop_images = sprite_get_number(spr_stop)
 var total_go_images = sprite_get_number(spr_go)
 var total_images = max(total_stop_images, total_go_images)
-
 repeat(total_images) {
 	if should_stop{
 		draw_sprite_ext(

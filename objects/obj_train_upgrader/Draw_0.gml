@@ -1,0 +1,1 @@
+draw_stacked_sprite(self)
