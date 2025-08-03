@@ -1,7 +1,7 @@
 /// @description Set dir/angle by pos
 get_train_speed();
 
-if (obj_tutorial_manager.at_step("stop_at_bank")){
+if (obj_tutorial_manager.at_step("stop_at_bank") || image_angle != 180){
 	image_angle = 180;
 }
 if(global.pause or should_move == false) {
@@ -29,3 +29,11 @@ smoke_spawn_y = obj_train.y + lengthdir_y(offset_distance, obj_train.direction) 
 if(global.debug){
 	draw_text(smoke_spawn_x, smoke_spawn_y, "o");
 }
+
+//// Set sprite index
+//if sprite_idx == spr_train_engine_wheel_1 {
+//	sprite_idx = spr_train_engine_wheel_2;
+//}
+//if sprite_idx == spr_train_engine_wheel_2 {
+//	sprite_idx = spr_train_engine_wheel_1
+//}
