@@ -1,13 +1,12 @@
 /// @description sounds map, soundtrack
 
-var stream_id = audio_create_stream("game_music.ogg");
-audio_play_sound(stream_id, 1, true);
-
 function play_soundtracks() {
 	menu_stream = audio_create_stream("menu_music.ogg");
 	game_stream = audio_create_stream("game_music.ogg");
-	main_menu_soundtrack = audio_play_sound(menu_stream, 9, true, 0.4, 4.5)	
-	game_soundtrack = audio_play_sound(game_stream, 9, true, 0, 0);
+	main_menu_soundtrack = audio_play_sound(menu_stream, 9, true);
+	game_soundtrack = audio_play_sound(game_stream, 9, true);
+	audio_sound_gain(main_menu_soundtrack, 0.4, 4000);
+	audio_sound_gain(game_soundtrack, 0, 0);
 }
 
 sounds_map = {
