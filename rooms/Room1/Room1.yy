@@ -41,11 +41,11 @@
     {"name":"inst_405A3B9E","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6DD4E9BB","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_32AA3A7C","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_13B50BF2","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_21202301","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_62E22DFC","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_633E6E4E","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_4D347563","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_13B50BF2","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

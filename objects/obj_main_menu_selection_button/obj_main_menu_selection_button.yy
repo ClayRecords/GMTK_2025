@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_main_menu_selection_button",
-    "path":"sprites/spr_main_menu_selection_button/spr_main_menu_selection_button.yy",
+    "name":"spr_ui_button",
+    "path":"sprites/spr_ui_button/spr_ui_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,
