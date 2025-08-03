@@ -1,17 +1,15 @@
 {
-  "$GMSound":"v2",
+  "$GMSound":"",
   "%Name":"snd_main_menu_soundtrack",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "bitRate":128,
   "compression":0,
-  "compressionQuality":4,
   "conversionMode":0,
   "duration":69.67744,
-  "exportDir":"",
   "name":"snd_main_menu_soundtrack",
   "parent":{
     "name":"Sounds",
@@ -22,5 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_main_menu_soundtrack.ogg",
+  "type":0,
   "volume":1.0,
 }
