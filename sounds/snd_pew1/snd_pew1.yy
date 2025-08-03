@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_pew1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.28734693,
+  "name":"snd_pew1",
+  "parent":{
+    "name":"pew",
+    "path":"folders/Sounds/pew.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_pew1.mp3",
+  "type":0,
+  "volume":1.0,
+}
