@@ -5,6 +5,9 @@ all_waves = [
 	[{"s": 20}]
 ];
 
+waves_length = array_length(all_waves);
+last_wave =  variable_clone(all_waves[waves_length - 1]);
+
 // Starting stats
 wave_index = -1;
 sub_wave_index = -1;
@@ -25,15 +28,17 @@ function kickoff() {
 }
 
 function start_next_wave() {
-	// Check if no more waves
-	if (wave_index >= array_length(all_waves) - 1) {
-		print("Winner winner!")
-		return;
-	}
-	
 	wave_index++;
 	wave_is_spawning = true;
-	active_wave = all_waves[wave_index];
+	
+	// Check if no more waves
+	if (wave_index >= array_length(all_waves)) {
+		print("Winner winner! Repeating wave")
+		active_wave = deep_copy_array_of_structs(last_wave);
+	} else {
+		active_wave = all_waves[wave_index];
+	}
+	
 	sub_wave_index = -1;
 	start_next_sub_wave();
 }
@@ -116,6 +121,7 @@ function struct_key_count(struct) {
 	var key_list = struct_get_names(struct);
 	return array_length(key_list);
 }
+
 function generate_x_and_y() {
 	var half_w = room_width  * 0.5;
 	var half_h = room_height * 0.5;
