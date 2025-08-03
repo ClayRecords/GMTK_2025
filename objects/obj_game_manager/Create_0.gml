@@ -34,9 +34,9 @@ function end_game(win_bool) {
 	room_goto(EndRoom)
 	layer_set_visible("MainMenuBackground", true);
 
+	global.did_win = win_bool;
 	if (win_bool) {
 		layer_set_visible("WinPage", true);
-		
 	}
 	else if (!win_bool) {
 		layer_set_visible("LosePage", true);

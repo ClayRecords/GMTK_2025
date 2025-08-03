@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_game_soundtrack",
+  "%Name":"snd_end_lose_soundtrack",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":111.83451,
-  "name":"snd_game_soundtrack",
+  "duration":8.275896,
+  "name":"snd_end_lose_soundtrack",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_game_soundtrack.ogg",
+  "soundFile":"snd_end_lose_soundtrack.ogg",
   "type":0,
   "volume":1.0,
 }

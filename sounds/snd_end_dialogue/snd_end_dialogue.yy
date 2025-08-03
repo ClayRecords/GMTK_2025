@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_game_soundtrack",
+  "%Name":"snd_end_dialogue",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":111.83451,
-  "name":"snd_game_soundtrack",
+  "duration":3.2130613,
+  "name":"snd_end_dialogue",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_game_soundtrack.ogg",
+  "soundFile":"snd_end_dialogue.mp3",
   "type":0,
   "volume":1.0,
 }
