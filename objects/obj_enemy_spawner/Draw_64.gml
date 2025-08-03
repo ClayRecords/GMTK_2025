@@ -1,14 +1,15 @@
 /// @description Draw wave counter
 var wave_counter_pos_x = room_width / 2;
-var wave_counter_pos_y  = 85;
+var wave_counter_pos_y  = 560;
 
 draw_set_halign(fa_center);
-
+draw_set_colour(global.default_text_color);
 
 if (self.wave_index >= 0 && self.active_wave != noone) {
-	draw_text(wave_counter_pos_x, wave_counter_pos_y, "Wave " + str(self.wave_index + 1));
+	top_text = "Wave " + str(self.wave_index + 1);
+	bottom_text = "";
 } else {
-	draw_text(wave_counter_pos_x, wave_counter_pos_y, "Enemies incoming!");
+	top_text = "Enemies incoming!";
 	var time_left = alarm[0] / global.one_second;
-	draw_text(wave_counter_pos_x, wave_counter_pos_y + 20, str(ceil(time_left)));
+	bottom_text = str(ceil(time_left));
 }

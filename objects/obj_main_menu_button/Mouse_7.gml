@@ -10,6 +10,7 @@ global.pause = false;
 layer_set_visible("NotificationsUI", false);
 layer_set_visible("HotbarUI", false);
 layer_set_visible("CurrencyUI", false);
+layer_set_visible("WaveTrackerUI", false);
 layer_set_visible("PauseUI", false);
 layer_set_visible("WinPage", false);
 layer_set_visible("LosePage", false);

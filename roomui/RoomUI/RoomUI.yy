@@ -43,6 +43,16 @@
           ],"flexDirection":0,"height":{"unit":3,"value":48.0,},"justifyContent":1,"name":"Back","nodeColour":4282970712,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":48.0,},},
       ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"AboutPage","nodeColour":4288082504,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"NotificationsUI","alignItems":2,"children":[],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"NotificationsUI","nodeColour":4294108232,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
+    {"$GMRUILayer":"v1","%Name":"WaveTrackerUI","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"WaveTracker","alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"WaveStatus","alignItems":2,"children":[
+                {"$GMRTextItem":"v2","%Name":"text_5601F563","alignment":1,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_5601F563","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"Wave Incoming","wrap":false,"x":-71.0,"xorigin":0.0,"y":-328.0,"yorigin":0.0,},
+              ],"flexDirection":0,"height":{"unit":3,"value":35.0,},"justifyContent":1,"name":"WaveStatus","nodeColour":4294078536,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":199.0,},},
+            {"$GMRFlexPanel":"","%Name":"Counter","alignItems":2,"children":[
+                {"$GMRTextItem":"v2","%Name":"text_5DE1BB52","alignment":1,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_5DE1BB52","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"0","wrap":false,"x":0.0,"xorigin":0.0,"y":-321.0,"yorigin":0.0,},
+              ],"flexDirection":0,"height":{"unit":3,"value":35.0,},"justifyContent":1,"name":"Counter","nodeColour":4294078536,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":199.0,},},
+          ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"WaveTracker","nodeColour":4282970785,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"WaveTrackerUI","nodeColour":4282929906,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
     {"$GMRUILayer":"v1","%Name":"WinPage","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"WinGraphic","alignItems":2,"children":[
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_AA27229","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_AA27229","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.6546155,"scaleY":1.6546155,"spriteId":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},"x":8.986328,"y":-88.923096,},
@@ -506,5 +516,5 @@
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",
   "viewspaceChildren":[],
-  "visible":true,
+  "visible":false,
 }

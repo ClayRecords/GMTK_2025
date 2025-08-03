@@ -1,1 +1,1 @@
-update_currency_ui()
+update_currency_ui_and_wave_tracker()

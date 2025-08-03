@@ -17,6 +17,9 @@ time_between_waves = global.one_second * 10;
 time_between_sub_waves = global.one_second * 5;
 sub_wave_spawn_rate = global.one_second;
 
+// Display
+top_text = "";
+bottom_text = "";
 function kickoff() {
 	alarm[0] = time_between_waves * 2;
 }
