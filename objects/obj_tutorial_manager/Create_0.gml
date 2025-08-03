@@ -77,6 +77,7 @@ function end_tutorial() {
 	with(obj_notification) {
 		instance_destroy(self);
 	}
+	alarm[5] = 180;
 }
 
 // Do first 2 notifications

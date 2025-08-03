@@ -20,5 +20,7 @@ if (self.active_wave != noone && !self.wave_is_spawning) {
 	if (enemies_count <= 0) {
 		self.active_wave = noone;
 		alarm[0] = self.time_between_waves;
+		var imagination_str = "You got 1 Imagination from completing a wave!";
+		reward_imagination(imagination_str);
 	}
 }

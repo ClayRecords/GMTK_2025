@@ -6,6 +6,8 @@ function reward_imagination() {
 	var improbablity_drive = 30; // number we measure health against, the smaller it is the more likely an enemy rewards imagination
 	var random_num = irandom(improbablity_drive);
 	if (random_num < self.max_health) {
-		obj_game_manager.imagination += 1
+		var imagination_str = "You got 1 Imagination from destroying toys!";
+		reward_imagination(imagination_str)
+
 	}
 }

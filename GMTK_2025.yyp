@@ -59,7 +59,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.0.849",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"GMTK_2025",
   "resources":[
@@ -127,6 +127,7 @@
     {"id":{"name":"get_lead_direction","path":"scripts/get_lead_direction/get_lead_direction.yy",},},
     {"id":{"name":"Point","path":"scripts/Point/Point.yy",},},
     {"id":{"name":"print","path":"scripts/print/print.yy",},},
+    {"id":{"name":"reward_imagination","path":"scripts/reward_imagination/reward_imagination.yy",},},
     {"id":{"name":"set_obj_sprite_size","path":"scripts/set_obj_sprite_size/set_obj_sprite_size.yy",},},
     {"id":{"name":"str","path":"scripts/str/str.yy",},},
     {"id":{"name":"snd_boom1","path":"sounds/snd_boom1/snd_boom1.yy",},},
@@ -193,6 +194,7 @@
     {"id":{"name":"spr_robot_walk","path":"sprites/spr_robot_walk/spr_robot_walk.yy",},},
     {"id":{"name":"spr_robot","path":"sprites/spr_robot/spr_robot.yy",},},
     {"id":{"name":"spr_soldier_bullet","path":"sprites/spr_soldier_bullet/spr_soldier_bullet.yy",},},
+    {"id":{"name":"spr_soldier_icon","path":"sprites/spr_soldier_icon/spr_soldier_icon.yy",},},
     {"id":{"name":"spr_soldier_kneeling","path":"sprites/spr_soldier_kneeling/spr_soldier_kneeling.yy",},},
     {"id":{"name":"spr_soldier_walk","path":"sprites/spr_soldier_walk/spr_soldier_walk.yy",},},
     {"id":{"name":"spr_soldier","path":"sprites/spr_soldier/spr_soldier.yy",},},

@@ -10,6 +10,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_speed_arrow","order":1,"path":"objects/obj_speed_arrow/obj_speed_arrow.yy",},
+    {"name":"reward_imagination","order":1,"path":"scripts/reward_imagination/reward_imagination.yy",},
     {"name":"spr_carpet","order":2,"path":"sprites/spr_carpet/spr_carpet.yy",},
     {"name":"spr_hitbox","order":5,"path":"sprites/spr_hitbox/spr_hitbox.yy",},
     {"name":"spr_imagination","order":2,"path":"sprites/spr_imagination/spr_imagination.yy",},
@@ -20,6 +21,7 @@
     {"name":"spr_pause_menu","order":3,"path":"sprites/spr_pause_menu/spr_pause_menu.yy",},
     {"name":"spr_penny","order":9,"path":"sprites/spr_penny/spr_penny.yy",},
     {"name":"spr_question_mark","order":1,"path":"sprites/spr_question_mark/spr_question_mark.yy",},
+    {"name":"spr_soldier_icon","order":14,"path":"sprites/spr_soldier_icon/spr_soldier_icon.yy",},
     {"name":"spr_speed_arrow","order":16,"path":"sprites/spr_speed_arrow/spr_speed_arrow.yy",},
     {"name":"spr_speed_lever","order":10,"path":"sprites/spr_speed_lever/spr_speed_lever.yy",},
     {"name":"spr_toy_box","order":6,"path":"sprites/spr_toy_box/spr_toy_box.yy",},

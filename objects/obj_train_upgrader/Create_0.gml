@@ -7,11 +7,19 @@ building_layer_name = "TrainUpgradeUI";
 option1_cost = 200;
 option2_cost = 20;
 option3_cost = 25;
-
+looped_before = false;
 
 function reach_building(){
 	obj_sound_manager.play_random_from_folder("choochoo", 0.3);
 	obj_tutorial_manager.resolve_step("stop_at_station");
+	
+	if (looped_before) {
+		var imagination_str = "You got 1 Imagination for making a loop!";
+		reward_imagination(imagination_str);
+	}
+	else {
+		looped_before = true;
+	}
 }
 
 // Speed
