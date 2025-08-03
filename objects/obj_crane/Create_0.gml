@@ -24,6 +24,7 @@ function do_option1() {
 	obj_game_manager.pennies -= dart_gun_cost;
 	dart_gun_cost += dart_gun_cost_increment;
 	obj_train.add_weapon_to_next_car(obj_turret_basic);
+	obj_tutorial_manager.resolve_step("buy_turret");
 }
 
 // Upgrade dart gun
@@ -82,7 +83,7 @@ function train_has_empty_car () {
 
 function set_text() {
 	if (train_has_empty_car()) {
-		car_available_str = "Purchase Dart Gun for: " + str(dart_gun_cost) + "©";
+		car_available_str = "Purchase Dart Gun for: " + str(dart_gun_cost) + "©\n";
 	}
 	else {
 		car_available_str = "NO EMPTY CAR!\n";
