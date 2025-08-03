@@ -10,6 +10,7 @@
   "name":"obj_baseball",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_equipment","path":"objects/obj_equipment/obj_equipment.yy",},"propertyId":{"name":"equipment_sprite","path":"objects/obj_equipment/obj_equipment.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_baseball",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_equipment","path":"objects/obj_equipment/obj_equipment.yy",},"propertyId":{"name":"trap_name","path":"objects/obj_equipment/obj_equipment.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Baseball",},
   ],
   "parent":{
     "name":"equipment",
@@ -32,7 +33,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
