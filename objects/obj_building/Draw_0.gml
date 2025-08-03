@@ -1,5 +1,5 @@
 /// @description Draw debug circle for interact radius
-if (obj_game_manager.debug){
+if (global.debug){
 	draw_set_colour(c_white);
 	draw_circle(self.x,self.y,distance_to_stop_at_building,true);
 	

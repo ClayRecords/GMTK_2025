@@ -17,10 +17,7 @@
     {"name":"station_clickbox","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},
     {"name":"crane_clickbox","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},
     {"name":"inst_42D79972","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},
-    {"name":"inst_7005BFF4","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},
-    {"name":"inst_27120315","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},
     {"name":"inst_247C04F6","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},
-    {"name":"inst_1B119762","path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},
   ],
   "isDnd":false,
   "layers":[
