@@ -46,6 +46,12 @@ sounds_map = {
 	"wood": [
 		snd_wood1,
 		snd_wood2
+	],
+	"laserwindup": [
+		snd_laserwindup
+	],
+	"laserair": [
+		snd_laserair
 	]
 }
 
@@ -55,4 +61,5 @@ function play_random_from_folder(folder_name, volume) {
 	var sound_index = files[file_index];
 	var sound = audio_play_sound(sound_index, 3, false);
 	audio_sound_gain(sound, volume, 0);
+	return sound;
 }
