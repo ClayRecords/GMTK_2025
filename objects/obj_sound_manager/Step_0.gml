@@ -1,4 +1,4 @@
-// Try to init audio
+/// @description Try to init audio
 
 if (!audio_system_available) {
 	print("Checking for audio...")

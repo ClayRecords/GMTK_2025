@@ -1,4 +1,8 @@
-/// @description sounds map, soundtrack
+/// @description Sounds map, soundtrack
+
+main_menu_soundtrack = noone;
+game_soundtrack = noone;
+audio_system_available = false;
 
 function play_soundtracks() {
 	menu_stream = audio_create_stream("menu_music.ogg");
