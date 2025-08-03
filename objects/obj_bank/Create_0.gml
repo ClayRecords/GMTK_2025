@@ -19,9 +19,7 @@ investment_rate_upgrade_increment = 0.01;
 function reach_building() {
 	pennies_ready += pennies_per_loop;
 	investment_account += investment_account * investment_rate;
-	if (obj_tutorial_manager.at_step("stop_at_bank")) {
-		obj_tutorial_manager.next_step()
-	}
+	obj_tutorial_manager.resolve_step("stop_at_bank");
 }
 
 // collect pennies
@@ -29,9 +27,7 @@ function do_option1() {
 	obj_game_manager.pennies += pennies_ready;
 	pennies_ready = 0;
 	
-	if (obj_tutorial_manager.at_step("get_pennies")) {
-		obj_tutorial_manager.next_step();
-	}
+	obj_tutorial_manager.resolve_step("get_pennies");
 }
 // Invest
 function do_option2() {

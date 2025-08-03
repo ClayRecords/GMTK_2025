@@ -7,10 +7,12 @@ step_names = [
 	"bank_info",
 	"stop_at_station",
 	"buy_car",
+	"station_info",
 	"stop_at_crane",
 	"buy_turret",
-	"open_toybox",
+	"open_toy_box",
 	"get_item",
+	"kill_enemies",
 	"win_info",
 	"good_luck"
 ]
@@ -22,29 +24,45 @@ step_text = [
 	"Upgrade the Piggy Bank with the other options later.",
 	"Click on the Train Station to schedule a stop there.",
 	"Buy a new car for your train!",
+	"Upgrade your speed later. Gear up and down with arrow keys!",
 	"Click on the Crane to schedule a stop there.",
-	"Buy a turret for your new train car!",
+	"Buy a Dart Gun for your new train car!",
 	"Click on the Toy Box in the center of the loop.",
-	"Use your Imagination to get a random item!",
+	"Use your Imagination to Pick a Random Toy!",
+	"Defeat enemies to gain more Imagination.",
 	"If you have enough Imagination, you can win the game!",
 	"Good luck, and full steam ahead!"
 ]
+
+function resolve_step(step_name) {
+	if (at_step(step_name)) {
+		next_step();
+	}
+}
 
 function at_step(step_name) {
 	return step_names[step_index] == step_name;
 }
 
 function next_step() {
-	step_index++;
-	obj_notifications_manager.show(spr_question_mark, step_text[step_index]);
+	if (is_active()) {
+		step_index++;
+		obj_notifications_manager.show(spr_question_mark, step_text[step_index], 5);
+	}
+	else {
+		end_tutorial();
+	}
 }
 
-function skip_tutorial() {
-	step_index = array_length(step_text) - 1;
-}
 
 function is_active() {
 	return step_index < array_length(step_text) - 1;
+}
+
+function end_tutorial() {
+	step_index = array_length(step_text) - 1;
+	obj_train.should_move = true;
+	obj_game_manager.kickoff();
 }
 
 next_step()

@@ -16,7 +16,8 @@ function toggle_interact_menu() {
 function open_toy_box_UI() {
 	prepare_toybox();
 	toggle_interact_menu();
-	obj_building_manager.current_building = self;	
+	obj_building_manager.current_building = self;
+	obj_tutorial_manager.resolve_step("open_toy_box");
 }
 function leave_building() {
 	print("Left building");
@@ -39,6 +40,10 @@ function do_option1() {
 	trap_button.quantity += 1;
 	obj_game_manager.imagination -= random_toy_cost;
 
+	obj_tutorial_manager.resolve_step("get_item");
+	obj_tutorial_manager.resolve_step("kill_enemies");
+	obj_tutorial_manager.resolve_step("win_info");
+	obj_tutorial_manager.resolve_step("good_luck");
 }
 
 // Heal toy box
