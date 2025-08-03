@@ -1,6 +1,6 @@
 /// @description Main soundtrack, sounds map
 
-main_soundtrack = audio_play_sound(snd_soundtrack, 1, true, 1, 4.5);
+main_soundtrack = audio_play_sound(snd_soundtrack, 10, true, 1, 4.5);
 
 sounds_map = {
 	"boom": [
