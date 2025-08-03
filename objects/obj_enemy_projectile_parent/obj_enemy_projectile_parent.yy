@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_enemy_projectile_parent",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_toy_box","path":"objects/obj_toy_box/obj_toy_box.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_enemy_projectile_parent",
   "overriddenProperties":[],

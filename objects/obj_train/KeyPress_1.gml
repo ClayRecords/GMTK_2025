@@ -11,13 +11,22 @@ if (obj_game_manager.debug) {
 		add_weapon_to_next_car(obj_turret_basic);
 	}
 	
-	// Increase train speed on left arrow press
-	if (keyboard_check(vk_left)) {
-		increase_train_speed()
-	}
 
-	// Decrease train speed on right arrow press
-	if (keyboard_check(vk_right)) {
-	    decrease_train_speed()
-	}
 }
+
+// Increase train speed on up arrow press
+if (keyboard_check(vk_up)) {
+		if (current_gear == max_train_gear) {
+			return;
+		}
+		current_gear += 1;
+}
+
+// Decrease train speed on down arrow press
+if (keyboard_check(vk_down)) {
+	if (current_gear == -max_train_gear){
+		return;
+	}
+		current_gear -= 1;
+}
+obj_speed_lever.image_index = obj_train.current_gear + 4;
