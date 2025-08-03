@@ -1,5 +1,5 @@
 notification_height = 100;
-notification_width = 400;
+notification_width = display_get_width();
 
 function show(sprite, text) {
 	print(notification_height)

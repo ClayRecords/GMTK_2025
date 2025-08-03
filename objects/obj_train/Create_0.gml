@@ -132,6 +132,7 @@ self.add_car();
 self.add_weapon_to_next_car(obj_turret_basic);
 beat = 60*60/120;
 alarm[0] = beat;
+direction = 180;
 
 function get_train_speed() {
 	train_speed = train_base_speed * power(gear_speed_modifier, current_gear)
