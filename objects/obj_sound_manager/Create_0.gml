@@ -1,4 +1,4 @@
-/// @description Main soundtrack
+/// @description Main soundtrack, sounds map
 
 main_soundtrack = audio_play_sound(snd_soundtrack, 1, true, 0.25, 4.5);
 
