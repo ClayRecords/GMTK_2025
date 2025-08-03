@@ -67,6 +67,7 @@
     {"name":"snd_boom2","order":1,"path":"sounds/snd_boom2/snd_boom2.yy",},
     {"name":"snd_boom3","order":2,"path":"sounds/snd_boom3/snd_boom3.yy",},
     {"name":"snd_choochoo1","order":1,"path":"sounds/snd_choochoo1/snd_choochoo1.yy",},
+    {"name":"snd_choochoo3","order":2,"path":"sounds/snd_choochoo3/snd_choochoo3.yy",},
     {"name":"snd_chugga_chugga","order":13,"path":"sounds/snd_chugga_chugga/snd_chugga_chugga.yy",},
     {"name":"snd_clank1","order":1,"path":"sounds/snd_clank1/snd_clank1.yy",},
     {"name":"snd_coin1","order":3,"path":"sounds/snd_coin1/snd_coin1.yy",},

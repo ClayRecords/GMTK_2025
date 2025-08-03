@@ -133,6 +133,7 @@
     {"id":{"name":"snd_boom3","path":"sounds/snd_boom3/snd_boom3.yy",},},
     {"id":{"name":"snd_choochoo1","path":"sounds/snd_choochoo1/snd_choochoo1.yy",},},
     {"id":{"name":"snd_choochoo2","path":"sounds/snd_choochoo2/snd_choochoo2.yy",},},
+    {"id":{"name":"snd_choochoo3","path":"sounds/snd_choochoo3/snd_choochoo3.yy",},},
     {"id":{"name":"snd_chugga_chugga","path":"sounds/snd_chugga_chugga/snd_chugga_chugga.yy",},},
     {"id":{"name":"snd_clank1","path":"sounds/snd_clank1/snd_clank1.yy",},},
     {"id":{"name":"snd_clank2","path":"sounds/snd_clank2/snd_clank2.yy",},},

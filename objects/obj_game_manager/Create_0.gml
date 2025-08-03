@@ -36,6 +36,7 @@ function end_game(win_bool) {
 
 	if (win_bool) {
 		layer_set_visible("WinPage", true);
+		
 	}
 	else if (!win_bool) {
 		layer_set_visible("LosePage", true);
