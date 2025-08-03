@@ -62,7 +62,6 @@
     {"name":"Caleb_Room","order":4,"path":"rooms/Caleb_Room/Caleb_Room.yy",},
     {"name":"EndRoom","order":6,"path":"rooms/EndRoom/EndRoom.yy",},
     {"name":"Josiah_Room","order":3,"path":"rooms/Josiah_Room/Josiah_Room.yy",},
-    {"name":"Molly_Art_Studio","order":5,"path":"rooms/Molly_Art_Studio/Molly_Art_Studio.yy",},
     {"name":"Room_TrainTrack","order":2,"path":"rooms/Room_TrainTrack/Room_TrainTrack.yy",},
     {"name":"draw_stacked_sprite","order":1,"path":"scripts/draw_stacked_sprite/draw_stacked_sprite.yy",},
     {"name":"snd_boom2","order":1,"path":"sounds/snd_boom2/snd_boom2.yy",},
