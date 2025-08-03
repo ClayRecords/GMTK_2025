@@ -1,8 +1,7 @@
+event_inherited()
+
 if (!quantity) {
-	image_alpha = 0.5;
-}
-else {
-	image_alpha = 1;
+	image_blend = c_gray;	
 }
 
 draw_self();
