@@ -1,7 +1,5 @@
 event_inherited();
 
-obj_train.should_move = false;
-
 step_names = [
 	"welcome",
 	"stop_at_bank",
@@ -81,4 +79,6 @@ function end_tutorial() {
 	}
 }
 
-next_step()
+// Do first 2 notifications
+next_step();
+next_step();

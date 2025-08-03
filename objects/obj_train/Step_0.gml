@@ -1,9 +1,13 @@
 /// @description Set dir/angle by pos
 get_train_speed();
 
+if (obj_tutorial_manager.at_step("stop_at_bank")){
+	image_angle = 180;
+}
 if(global.pause or should_move == false) {
 	path_speed = 0;	
-} else {
+}
+else {
 	path_speed = train_speed;
 }
 
