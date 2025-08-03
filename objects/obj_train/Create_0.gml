@@ -1,11 +1,14 @@
 /// @description Init path, add tracks
 
+// Set initial sprite index
+sprite_idx = spr_train_engine_wheel_1;
+
 // IMPORTANT! This only works when the length_of_straightaway 
 // is double the circle_radius
 train_path = path_add();
 
 starting_x = x;
-starting_y = y;
+starting_y = y - 50;
 
 prev_x = x;
 prev_y = y;
@@ -19,9 +22,9 @@ train_speed = 5;
 min_train_speed = 8;
 max_train_speed = 12;
 
-circle_radius = 150;
-num_of_segments = 36; //higher number, smoother the path
-length_of_straightaway = 400;
+circle_radius = 175;
+num_of_segments = 40; //higher number, smoother the path
+length_of_straightaway = 350;
 
 should_move = true;
 
