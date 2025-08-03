@@ -11,7 +11,7 @@ option3_cost = 15;
 
 function reach_building(){
 	obj_sound_manager.play_random_from_folder("choochoo", 0.3);
-	return;
+	obj_tutorial_manager.resolve_step("stop_at_station");
 }
 
 // Speed
@@ -43,6 +43,7 @@ function do_option3() {
 	obj_game_manager.pennies -= option3_cost;
 	option3_cost += 15;
 	obj_train.add_car();
+	obj_tutorial_manager.resolve_step("buy_car");
 }
 
 function train_at_max_gear() {
