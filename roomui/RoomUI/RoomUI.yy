@@ -2,16 +2,30 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
+    {"$GMRUILayer":"v1","%Name":"MainMenu","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"BuildingPanel","alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"Play","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"OptionName","alignItems":2,"children":[
+                    {"$GMRTextItem":"v2","%Name":"text_7A3F07BF","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"frameH":44.0,"frameW":118.54544,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_7A3F07BF","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"Play!","wrap":true,"x":-519.00104,"xorigin":0.0,"y":745.5,"yorigin":0.0,},
+                  ],"flexDirection":0,"height":{"unit":1,"value":50.0,},"justifyContent":1,"name":"OptionName","nodeColour":4287187186,"positionType":0,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+                {"$GMRFlexPanel":"","%Name":"Button","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":3,"value":48.0,},"justifyContent":1,"name":"Button","nodeColour":4294068409,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":48.0,},},
+                {"$GMRInstance":"v2","%Name":"inst_78772497","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_78772497","objectId":{"name":"obj_main_menu_selection_button","path":"objects/obj_main_menu_selection_button/obj_main_menu_selection_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.8958333,"scaleY":1.7708334,"x":-474.50134,"y":767.5,},
+              ],"flexDirection":0,"height":{"unit":3,"value":48.0,},"justifyContent":1,"name":"Play","nodeColour":4282970712,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":48.0,},},
+            {"$GMRFlexPanel":"","%Name":"Title","alignItems":2,"children":[
+                {"$GMRSpriteGraphic":"v1","%Name":"graphic_6233BBF9","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6233BBF9","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.4403561,"scaleY":1.4403564,"spriteId":{"name":"spr_main_menu_background","path":"sprites/spr_main_menu_background/spr_main_menu_background.yy",},"x":0.0,"y":922.0,},
+              ],"flexDirection":0,"height":{"unit":3,"value":44.0,},"justifyContent":1,"name":"Title","nodeColour":4294068330,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":198.0,},},
+          ],"flexDirection":0,"height":{"unit":3,"value":96.0,},"justifyContent":1,"name":"BuildingPanel","nodeColour":4293216498,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":96.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"MainMenu","nodeColour":4294103368,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
     {"$GMRUILayer":"v1","%Name":"SpeedControlUI","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel_1","alignItems":2,"children":[
             {"$GMRInstance":"v2","%Name":"inst_1A5AF162","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A5AF162","objectId":{"name":"obj_speed_lever","path":"objects/obj_speed_lever/obj_speed_lever.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":646.0,"y":0.0,},
           ],"flexDirection":0,"height":{"unit":3,"value":224.0,},"justifyContent":1,"name":"FlexPanel_1","nodeColour":4291818056,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":32.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"SpeedControlUI","nodeColour":4293085426,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"SpeedControlUI","nodeColour":4293085426,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"PauseButton","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[
             {"$GMRInstance":"v2","%Name":"inst_17DBAC89","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17DBAC89","objectId":{"name":"obj_pause_button","path":"objects/obj_pause_button/obj_pause_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":670.0,"y":-323.0,},
           ],"flexDirection":0,"height":{"unit":3,"value":48.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4282970802,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":48.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PauseButton","nodeColour":4283386098,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PauseButton","nodeColour":4283386098,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"PauseUI","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"PausePanel","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"QuitButton","alignItems":2,"children":[
@@ -27,7 +41,7 @@
               ],"flexDirection":0,"height":{"unit":3,"value":44.0,},"justifyContent":1,"name":"Title","nodeColour":4294068330,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":198.0,},},
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_394B265C","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_394B265C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":3.4583333,"scaleY":3.6041663,"spriteId":{"name":"spr_ui_box","path":"sprites/spr_ui_box/spr_ui_box.yy",},"x":78.0,"y":77.0,},
           ],"flexDirection":0,"height":{"unit":3,"value":96.0,},"justifyContent":1,"name":"PausePanel","nodeColour":4293216498,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":96.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PauseUI","nodeColour":4282970803,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PauseUI","nodeColour":4282970803,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"HotbarUI","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"Hotbar","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"Block","alignItems":2,"children":[
@@ -356,5 +370,5 @@
   "resourceType":"GMRoomUI",
   "resourceVersion":"2.0",
   "viewspaceChildren":[],
-  "visible":true,
+  "visible":false,
 }
