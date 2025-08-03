@@ -30,9 +30,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"trap_name","filters":[],"listItems":[],"multiselect":false,"name":"trap_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
-    {"$GMObjectProperty":"v2","%Name":"quantity","filters":[],"listItems":[],"multiselect":false,"name":"quantity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"max_quantity","filters":[],"listItems":[],"multiselect":false,"name":"max_quantity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"9","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"trap_name","filters":[],"listItems":[],"multiselect":false,"name":"trap_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"quantity","filters":[],"listItems":[],"multiselect":false,"name":"quantity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"max_quantity","filters":[],"listItems":[],"multiselect":false,"name":"max_quantity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"9","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
