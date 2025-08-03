@@ -77,9 +77,16 @@ function end_tutorial() {
 	with(obj_notification) {
 		instance_destroy(self);
 	}
+	ensure_at_least_1_car();
 	alarm[5] = 180;
 }
 
+function ensure_at_least_1_car() {
+	if (array_length(obj_train.train_cars) == 0) {
+	obj_train.add_car();
+	obj_train.add_weapon_to_next_car(obj_turret_basic);
+	}
+}
 // Do first 2 notifications
 next_step();
 next_step();

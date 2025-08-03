@@ -7,8 +7,8 @@ building_layer_name = "CraneUI";
 
 dart_gun_cost = 75;
 dart_gun_upgrade_cost = 40;
-dart_gun_cost_increment = 15;
-dart_gun_upgrade_cost_increment = 10;
+dart_gun_cost_increment = 100;
+dart_gun_upgrade_cost_increment = 50;
 dart_gun_damage_increment = 5;
 dart_gun_range_increment = 50;
 
@@ -92,7 +92,12 @@ function set_text() {
 		car_available_str = "NO EMPTY CAR!\n";
 	}
 	
-	option1_description = car_available_str + "Damage: " + str(obj_turret_basic.bullet_damage) + "\nRange: " + (str(obj_turret_basic.fire_range));
+	if (!instance_exists(obj_turret_basic)) {
+		option1_description = car_available_str
+	}
+	else {
+		option1_description = car_available_str + "Damage: " + str(obj_turret_basic.bullet_damage) + "\nRange: " + (str(obj_turret_basic.fire_range));
+	}
 	option2_description = "Cost: " + str(dart_gun_upgrade_cost);
 	option3_description = "";
 	option4_description = "";
