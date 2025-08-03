@@ -10,6 +10,7 @@ option3_cost = 15;
 
 
 function reach_building(){
+	obj_sound_manager.play_random_from_folder("choochoo", 0.3);
 	return;
 }
 

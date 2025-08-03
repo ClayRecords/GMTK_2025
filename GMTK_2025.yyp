@@ -134,6 +134,7 @@
     {"id":{"name":"snd_grunt2","path":"sounds/snd_grunt2/snd_grunt2.yy",},},
     {"id":{"name":"snd_grunt3","path":"sounds/snd_grunt3/snd_grunt3.yy",},},
     {"id":{"name":"snd_grunt4","path":"sounds/snd_grunt4/snd_grunt4.yy",},},
+    {"id":{"name":"snd_laserair","path":"sounds/snd_laserair/snd_laserair.yy",},},
     {"id":{"name":"snd_laserwindup","path":"sounds/snd_laserwindup/snd_laserwindup.yy",},},
     {"id":{"name":"snd_pew1","path":"sounds/snd_pew1/snd_pew1.yy",},},
     {"id":{"name":"snd_pew2","path":"sounds/snd_pew2/snd_pew2.yy",},},
