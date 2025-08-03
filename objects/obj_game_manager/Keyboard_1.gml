@@ -2,6 +2,7 @@
 if(global.pause) {
 	exit;
 }
+if (debug){
 
 if (keyboard_check(ord("0"))) {
 	room_goto(Room_TrainTrack)
@@ -29,4 +30,5 @@ if(keyboard_check(ord("K"))){
 
 if(keyboard_check(ord("C"))) {
 	room_goto(Caleb_Room);
+}
 }

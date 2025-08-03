@@ -2,7 +2,9 @@ just_passed_or_entered = false;
 building_layer_name = noone;
 distance_to_stop_at_building = 75;
 option_descriptions = [];
-stopsign = instance_create_layer(x + 70, y - 40, "Buildings", obj_go);
+stopsign_offset_x = 70;
+stopsign_offset_y = -40;
+stopsign = instance_create_layer(x + stopsign_offset_x, y + stopsign_offset_y, "Buildings", obj_go);
 stopsign.image_xscale = 2
 stopsign.image_yscale = 2
 

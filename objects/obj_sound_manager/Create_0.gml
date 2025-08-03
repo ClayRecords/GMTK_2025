@@ -1,6 +1,17 @@
-/// @description sounds map
-main_menu_soundtrack = audio_play_sound(snd_main_menu_soundtrack, 9, true, 0, 4.5);	
-game_soundtrack = audio_play_sound(snd_game_soundtrack, 9, true, 0, 0);
+/// @description Sounds map, soundtrack
+
+main_menu_soundtrack = noone;
+game_soundtrack = noone;
+audio_system_available = false;
+
+function play_soundtracks() {
+	menu_stream = audio_create_stream("menu_music.ogg");
+	game_stream = audio_create_stream("game_music.ogg");
+	main_menu_soundtrack = audio_play_sound(menu_stream, 9, true);
+	game_soundtrack = audio_play_sound(game_stream, 9, true);
+	audio_sound_gain(main_menu_soundtrack, 0.4, 4000);
+	audio_sound_gain(game_soundtrack, 0, 0);
+}
 
 sounds_map = {
 	"boom": [

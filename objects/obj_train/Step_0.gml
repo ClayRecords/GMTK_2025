@@ -19,6 +19,13 @@ if (delta_x != 0 || delta_y != 0) {
 prev_x = x;
 prev_y = y;
 
+var offset_distance = 30;
+smoke_spawn_x = obj_train.x + lengthdir_x(offset_distance, obj_train.direction);
+smoke_spawn_y = obj_train.y + lengthdir_y(offset_distance, obj_train.direction) - 30;
+if(obj_game_manager.debug){
+	draw_text(smoke_spawn_x, smoke_spawn_y, "o");
+}
+
 //// Set sprite index
 //if sprite_idx == spr_train_engine_wheel_1 {
 //	sprite_idx = spr_train_engine_wheel_2;

@@ -130,6 +130,9 @@ for (var d = 0; d <= total_length; d += distance_step) {
 
 self.add_car();
 self.add_weapon_to_next_car(obj_turret_basic);
+
+smoke_spawn_x = 0;
+smoke_spawn_y = 0;
 beat = 60*60/120;
 alarm[0] = beat;
 
