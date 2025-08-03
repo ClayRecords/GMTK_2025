@@ -1,4 +1,5 @@
 /// @description Set dir/angle by pos
+get_train_speed();
 
 if(global.pause or should_move == false) {
 	path_speed = 0;	

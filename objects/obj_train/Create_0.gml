@@ -14,10 +14,13 @@ car_spacing = 0.04;
 train_cars = [];
 max_number_of_cars = 20;
 
-train_power_level = 1;
-train_speed = 5;
-min_train_speed = 8;
-max_train_speed = 12;
+train_ramming_damage = 1;
+
+train_base_speed = 5;
+train_speed = train_base_speed;
+max_train_gear = 0;
+current_gear = 0;
+gear_speed_modifier = 1.5;
 
 circle_radius = 150;
 num_of_segments = 36; //higher number, smoother the path
@@ -126,12 +129,6 @@ self.add_car();
 self.add_weapon_to_next_car(obj_turret_basic);
 
 
-function increase_train_speed() {
-	var new_train_speed = max(train_speed - 1, min_train_speed);
-	train_speed = new_train_speed;
-}
-
-function decrease_train_speed() {
-	var new_train_speed = min(train_speed + 1, max_train_speed);
-	train_speed = new_train_speed;
+function get_train_speed() {
+	train_speed = train_base_speed * power(gear_speed_modifier, current_gear)
 }
