@@ -60,7 +60,7 @@ for (var i = num_of_segments; i >= 0; i--) {
 }
 path_add_point(train_path,starting_x,starting_y, 50);
 
-// Start the pat using path_action_restart
+// Start the path using path_action_restart
 path_start(train_path, train_speed, path_action_restart, true);
 
 
@@ -130,7 +130,8 @@ for (var d = 0; d <= total_length; d += distance_step) {
 
 self.add_car();
 self.add_weapon_to_next_car(obj_turret_basic);
-
+beat = 60*60/120;
+alarm[0] = beat;
 
 function get_train_speed() {
 	train_speed = train_base_speed * power(gear_speed_modifier, current_gear)
