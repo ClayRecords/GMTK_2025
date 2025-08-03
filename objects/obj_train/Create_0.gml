@@ -140,6 +140,21 @@ beat = 60*60/120;
 alarm[0] = beat;
 direction = 180;
 
+function train_speed_change(dir) {
+	if (dir > 0) {
+		if (current_gear == max_train_gear) {
+			return;
+		}
+		current_gear += 1;
+	} else {
+		if (current_gear == -max_train_gear){
+			return;
+		}
+		current_gear -= 1;
+	}
+	obj_speed_lever.image_index = current_gear + 4;
+}
+
 function get_train_speed() {
 	train_speed = train_base_speed * power(gear_speed_modifier, current_gear)
 }
