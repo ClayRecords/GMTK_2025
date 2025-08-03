@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
-image_angle = 15
+image_angle = -45
 
 building_layer_name = "CraneUI"; 
 
@@ -82,13 +82,13 @@ function train_has_empty_car () {
 
 function set_text() {
 	if (train_has_empty_car()) {
-		car_available_str = "";
+		car_available_str = "Purchase Dart Gun for: " + str(dart_gun_cost) + "©";
 	}
 	else {
 		car_available_str = "NO EMPTY CAR!\n";
 	}
 	
-	option1_description = car_available_str + "Purchase Dart Gun for: " + str(dart_gun_cost) + "©\nDamage: " + (str(obj_turret_basic.bullet_damage)) + "\nRange: RANGE HERE";
+	option1_description = car_available_str + "Damage: " + (str(obj_turret_basic.bullet_damage)) + "\nRange: RANGE HERE";
 	option2_description = "Cost: " + str(dart_gun_upgrade_cost);
 	option3_description = "";
 	option4_description = "";

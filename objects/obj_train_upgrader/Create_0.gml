@@ -55,7 +55,7 @@ function train_at_max_gear() {
 function set_text() {
 	option1_description = "Current Max Gear Range: "+string(4 - obj_train.max_train_gear)+"-"+string(4 + obj_train.max_train_gear)+
 	"\nCost: "+string(option1_cost);
-		if (train_at_max_gear()) {
+	if (train_at_max_gear()) {
 		option1_description = "Max Gear Reached!";	
 	}
 	option2_description = "Current Power: "+string(obj_train.train_ramming_damage)+
