@@ -31,6 +31,8 @@ function do_option1() {
 }
 // Invest
 function do_option2() {
+	if (obj_tutorial_manager.is_active()) { return; }
+	
 	var investment_amount = pennies_per_loop;
 	if (obj_game_manager.pennies < investment_amount) {
 		return;
