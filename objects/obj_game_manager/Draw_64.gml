@@ -8,5 +8,12 @@ draw_text(x + 30, y + 55, "Imagination: " + str(imagination));
 
 
 if (debug) {
-	draw_text(room_width - 20, 20, "*");
+	//draw_sprite(spr_ui_back,1,x + 20,y+5);
+	draw_text(x + 30, y + 100, "Debug mode");
+	draw_text(x + 30, y + 150, "x: " + string(obj_train.x));
+	draw_text(x + 30, y + 200, "y: "+ string(obj_train.y));
+	draw_text(x + 30, y + 250, "Speed: "+ string(obj_train.path_speed));
+	draw_text(obj_train.x, obj_train.y, "o");
+	
+
 }

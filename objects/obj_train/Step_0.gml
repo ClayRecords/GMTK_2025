@@ -17,3 +17,5 @@ if (delta_x != 0 || delta_y != 0) {
 // Update previous position for next frame
 prev_x = x;
 prev_y = y;
+
+
