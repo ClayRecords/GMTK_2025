@@ -17,6 +17,7 @@ function pass_or_enter_building() {
 		obj_train.train_speed = 0;
 		obj_train.should_move = false;
 		obj_building_manager.current_building = self;
+		layer_set_visible("ToyBoxUI", false);
 		toggle_interact_menu(); // Generic building interaction function to be defined in child class
 	}
 	else {
