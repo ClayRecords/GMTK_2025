@@ -1,5 +1,7 @@
 {
   "FolderOrderSettings":[
+    {"name":"track","order":2,"path":"folders/Objects/track.yy",},
+    {"name":"train","order":1,"path":"folders/Objects/train.yy",},
     {"name":"buildings","order":7,"path":"folders/Sprites/buildings.yy",},
     {"name":"enemies","order":8,"path":"folders/Sprites/enemies.yy",},
     {"name":"equipment","order":9,"path":"folders/Sprites/equipment.yy",},
@@ -10,6 +12,9 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_speed_arrow","order":1,"path":"objects/obj_speed_arrow/obj_speed_arrow.yy",},
+    {"name":"obj_track_straight","order":1,"path":"objects/obj_track_straight/obj_track_straight.yy",},
+    {"name":"obj_train_car","order":1,"path":"objects/obj_train_car/obj_train_car.yy",},
+    {"name":"obj_train_smoke","order":2,"path":"objects/obj_train_smoke/obj_train_smoke.yy",},
     {"name":"reward_imagination","order":1,"path":"scripts/reward_imagination/reward_imagination.yy",},
     {"name":"spr_carpet","order":2,"path":"sprites/spr_carpet/spr_carpet.yy",},
     {"name":"spr_hitbox","order":5,"path":"sprites/spr_hitbox/spr_hitbox.yy",},

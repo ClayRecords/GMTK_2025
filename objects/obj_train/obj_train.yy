@@ -12,8 +12,8 @@
   "name":"obj_train",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"train",
+    "path":"folders/Objects/train.yy",
   },
   "parentObjectId":null,
   "persistent":false,

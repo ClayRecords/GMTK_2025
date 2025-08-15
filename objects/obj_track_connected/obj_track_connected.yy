@@ -6,8 +6,8 @@
   "name":"obj_track_connected",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"track",
+    "path":"folders/Objects/track.yy",
   },
   "parentObjectId":null,
   "persistent":false,
