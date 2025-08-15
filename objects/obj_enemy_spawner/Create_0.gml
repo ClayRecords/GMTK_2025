@@ -2,11 +2,15 @@ all_waves = [
 	[{"s": 1, "k": 1}, {"s": 1, "k": 1, "r": 1}],
 	[{"s": 2, "k": 2, "r": 1}, {"s": 3, "k": 2, "r": 1}, {"r": 2}],
 	[{"k": 1}, {"s": 7}, {"k": 1}, {"k": 1}, {"k": 1}, {"r": 2}],
-	[{"s": 20}]
+	[{"s": 4, "k": 2, "r": 1}, {"s": 3, "k": 3, "r": 1}, {"s": 6, "k": 2, "r": 1}],
+	[{"k": 2}, {"k": 2}, {"k": 2}, {"s": 3, "k": 3}, {"s": 5}],
+	[{"k": 4}, {"s": 7, "r": 1}, {"k": 1, "s": 4}, {"k": 1}, {"k": 3}, {"r": 2}],
+	[{"r": 1}, {"r": 2}, {"r": 2}, {"k": 1, "s": 4}, {"r": 2}],
+	[{"s": 4, "k": 2, "r": 1}, {"s": 3, "k": 3, "r": 1}, {"s": 6, "k": 2, "r": 3}],
 ];
 
 waves_length = array_length(all_waves);
-last_wave =  variable_clone(all_waves[waves_length - 1]);
+last_wave = variable_clone(all_waves[waves_length - 1]);
 
 // Starting stats
 wave_index = -1;
@@ -34,7 +38,7 @@ function start_next_wave() {
 	// Check if no more waves
 	if (wave_index >= array_length(all_waves)) {
 		print("Winner winner! Repeating wave")
-		active_wave = deep_copy_array_of_structs(last_wave);
+		active_wave = variable_clone(last_wave);
 	} else {
 		active_wave = all_waves[wave_index];
 	}
