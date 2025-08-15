@@ -3,10 +3,10 @@ building_layer_name = "ToyBoxUI";
 
 random_toy_cost = 1;
 heal_cost = 3;
+heal_amount = max_health / 4;
 win_cost = 100;
 
 possible_toys = ["Baseball", "MouseTrap", "Block"]
-heal_amount = max_health;
 
 function toggle_interact_menu() {
     if (is_string(building_layer_name)) {
@@ -21,24 +21,21 @@ function open_toy_box_UI() {
 	obj_tutorial_manager.resolve_step("open_toy_box");
 }
 function leave_building() {
-	print("Left building");
 	toggle_interact_menu();
 }
 
-
-// Pick a random toy from the toy box
 function do_option1() {
+	// Pick a random toy from the toy box
 	if (obj_game_manager.imagination < random_toy_cost) {
-		return;
+		return; // No funds
 	}
 	
-	var trap_button = pick_random_valid_toy(possible_toys)
-	
-	if (!instance_exists(trap_button)) {
-		return;
+	var random_trap = pick_random_valid_toy(possible_toys)
+	if (!instance_exists(random_trap)) {
+		return; // At max traps
 	}
 	
-	trap_button.quantity += 1;
+	random_trap.quantity += 1;
 	obj_game_manager.imagination -= random_toy_cost;
 
 	obj_tutorial_manager.resolve_step("get_item");
@@ -47,19 +44,27 @@ function do_option1() {
 	obj_tutorial_manager.resolve_step("good_luck");
 }
 
-// Heal toy box
 function do_option2() {
-	if (obj_game_manager.imagination < heal_cost) {
-		return;
+	// Heal toy box
+	if (current_health == max_health) {
+		return; // Already at full health
 	}
 	
+	if (obj_game_manager.imagination < heal_cost) {
+		return; // No funds
+	}
+	
+	obj_game_manager.imagination -= heal_cost;
 	current_health += heal_amount;
+	if (current_health > max_health) {
+		current_health = max_health;
+	}
 }
 
-// Win
 function do_option3() {
+	// Win
 	if (obj_game_manager.imagination < win_cost) {
-		return;
+		return; // No funds
 	}
 	obj_game_manager.imagination -= win_cost;
 	obj_game_manager.end_game(true);
@@ -90,9 +95,10 @@ function pick_random_valid_toy(possible_toys) {
 function prepare_toybox() {
 	set_text();
 }
+
 function set_text() {
 	option1_description = "Pick a random toy from the toy box!\nCosts " + str(random_toy_cost) + " Imagination";
 	option2_description = "Heal your toy box!\nCosts " + str(heal_cost) + " Imagination";
 	option3_description = "Use " + str(win_cost) + " Imagination to win!";
 	option_descriptions = [option1_description, option2_description, option3_description];
-	}
+}

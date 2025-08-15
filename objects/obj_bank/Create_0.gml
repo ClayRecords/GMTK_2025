@@ -22,15 +22,16 @@ function reach_building() {
 	obj_tutorial_manager.resolve_step("stop_at_bank");
 }
 
-// collect pennies
 function do_option1() {
+	// Collect pennies
 	obj_game_manager.pennies += pennies_ready;
 	pennies_ready = 0;
 	
 	obj_tutorial_manager.resolve_step("get_pennies");
 }
-// Invest
+
 function do_option2() {
+	// Invest
 	if (obj_tutorial_manager.is_active()) { return; }
 	
 	var investment_amount = pennies_per_loop;
@@ -40,15 +41,17 @@ function do_option2() {
 	obj_game_manager.pennies -= investment_amount;
 	investment_account += investment_amount;
 }
-// Collect investment
+
 function do_option4() {
+	// Collect investment
 	obj_game_manager.pennies += investment_account;
 	investment_account = 0;
 }
-// Upgrade
+
 function do_option3() {
+	// Upgrade
 	if (obj_game_manager.imagination < cost_to_upgrade) {
-		return;	
+		return; // No funds
 	}
 	obj_game_manager.imagination -= cost_increment
 	cost_to_upgrade += cost_increment

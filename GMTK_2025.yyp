@@ -76,7 +76,6 @@
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_carpet","path":"objects/obj_carpet/obj_carpet.yy",},},
     {"id":{"name":"obj_clickable","path":"objects/obj_clickable/obj_clickable.yy",},},
-    {"id":{"name":"obj_clickbox","path":"objects/obj_clickbox/obj_clickbox.yy",},},
     {"id":{"name":"obj_crane","path":"objects/obj_crane/obj_crane.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"obj_enemy_projectile_parent","path":"objects/obj_enemy_projectile_parent/obj_enemy_projectile_parent.yy",},},
