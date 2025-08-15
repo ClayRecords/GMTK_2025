@@ -26,7 +26,7 @@ current_gear = 0;
 gear_speed_modifier = 1.5;
 
 circle_radius = 175;
-num_of_segments = 40; //higher number, smoother the path
+num_of_segments = 40; // Higher number, smoother the path
 length_of_straightaway = 350;
 
 // Stop at start for tutorial
@@ -77,12 +77,11 @@ function add_car(){
 
 function add_weapon_to_next_car(weapon) {
 	var len = array_length(train_cars);
-	
     for (var i = 0; i < len; i++) {
         var car = train_cars[i];
         if (instance_exists(car) && car.weapon == noone) {
-            car.add_weapon(weapon); // calls function inside the train car
-            break; // only add to one car per keypress
+            car.add_weapon(weapon); // Calls function inside the train car
+            break; // Only add to one car per keypress
         }
     }
 }

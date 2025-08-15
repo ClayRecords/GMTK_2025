@@ -1,4 +1,4 @@
-/// @description Debug add cars, turrets
+/// @description Change speed; Debug add cars & turrets
 
 if (global.debug) {
 	if (keyboard_check_pressed(187)) {
